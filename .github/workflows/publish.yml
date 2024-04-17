@@ -30,7 +30,7 @@ jobs:
           echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
 
           # Parse the game version
-          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
+          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
 
           # Check if there are any changes
           if git diff --exit-code; then
