@@ -13,6 +13,8 @@ on:
 
 jobs:
   publish:
+    env:
+      PATH: "$HOME/go/bin:$PATH"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
@@ -21,7 +23,6 @@ jobs:
       - name: Update Modpack
         run: |
           go install github.com/packwiz/packwiz@latest
-          export PATH="$HOME/go/bin:$PATH"
           dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
       - name: Push If Needed
         id: push
