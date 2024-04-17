@@ -21,7 +21,8 @@ jobs:
       - name: Update Modpack
         run: |
           go install github.com/packwiz/packwiz@latest
-          PATH="$PATH:~/go/bin/packwiz" dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
+          export PACKWIZ_BINARY="$HOME/go/bin/packwiz"
+          dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
       - name: Push If Needed
         id: push
         run: |

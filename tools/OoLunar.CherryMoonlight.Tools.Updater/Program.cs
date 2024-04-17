@@ -22,6 +22,9 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
         private const string PACK_FILE_NAME = "pack.toml";
         private const string CHANGELOG_FILE_NAME = "CHANGELOG.md";
 
+        private static readonly string PackwizBinary = Environment.GetEnvironmentVariable("PACKWIZ_BINARY") ?? "packwiz";
+        private static readonly string GitBinary = Environment.GetEnvironmentVariable("GIT_BINARY") ?? "git";
+
         public static async Task<int> Main()
         {
             LoggingDefaults loggingDefaults = new();
@@ -37,7 +40,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             Logger logger = serilogLoggerConfiguration.CreateLogger();
 
             // Ensure the packwiz CLI is installed
-            (string output, int exitCode) = await ExecuteProgramAsync("packwiz", "--help", logger);
+            (string output, int exitCode) = await ExecuteProgramAsync(PackwizBinary, "--help", logger);
             if (exitCode != 0)
             {
                 logger.Fatal("Failed to locate packwiz: {Output}", output);
@@ -45,7 +48,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             // Ensure the git CLI is installed
-            (output, exitCode) = await ExecuteProgramAsync("git", "--version", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "--version", logger);
             if (exitCode != 0)
             {
                 logger.Fatal("Failed to locate git: {Output}", output);
@@ -58,7 +61,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             // See if the repo is dirty
             string latestCommit;
             bool stashed = false;
-            (output, exitCode) = await ExecuteProgramAsync("git", "status --porcelain", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "status --porcelain", logger);
             if (exitCode != 0)
             {
                 logger.Error("Failed to check git status: {Output}", output);
@@ -67,7 +70,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             else if (output.Length > 0)
             {
                 logger.Warning("Uncommitted changes detected, comparing against the current state of the repository.");
-                (output, exitCode) = await ExecuteProgramAsync("git", "rev-parse HEAD", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "rev-parse HEAD", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to get the latest commit: {Output}", output);
@@ -75,7 +78,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 }
 
                 latestCommit = output.Trim();
-                (output, exitCode) = await ExecuteProgramAsync("git", "stash", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "stash", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to stash changes: {Output}", output);
@@ -87,7 +90,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             else
             {
                 // Fetch the latest remote commits
-                (output, exitCode) = await ExecuteProgramAsync("git", "fetch --all --tags", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "fetch --all --tags", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to fetch latest commit: {Output}", output);
@@ -95,7 +98,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 }
 
                 // Get the current branch
-                (output, exitCode) = await ExecuteProgramAsync("git", "branch --show-current", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "branch --show-current", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to get the current branch: {Output}", output);
@@ -110,7 +113,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             IReadOnlyList<PackwizEntry> oldEntries = await GrabPackwizEntriesAsync(logger);
 
             // Checkout the latest commit
-            (output, exitCode) = await ExecuteProgramAsync("git", $"checkout {latestCommit}", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestCommit}", logger);
             if (exitCode != 0)
             {
                 logger.Error("Failed to checkout latest commit: {Output}", output);
@@ -120,7 +123,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             if (stashed)
             {
                 // Pop the stash
-                (output, exitCode) = await ExecuteProgramAsync("git", "stash pop", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "stash pop", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to pop the stash: {Output}", output);
@@ -129,7 +132,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             // Update the modpack
-            (output, exitCode) = await ExecuteProgramAsync("packwiz", $"update --all -y", logger);
+            (output, exitCode) = await ExecuteProgramAsync(PackwizBinary, $"update --all -y", logger);
             if (exitCode != 0)
             {
                 logger.Error("Failed to update modpack through packwiz: {Output}", output);
@@ -383,7 +386,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                     child.Value = new StringValueSyntax(modpackVersion.ToString());
 
                     // Update the hashes
-                    await ExecuteProgramAsync("packwiz", "refresh", logger);
+                    await ExecuteProgramAsync(PackwizBinary, "refresh", logger);
 
                     // Log and exit
                     logger.Information("Modpack updated from {OldVersion} to {NewVersion}", changelog.OldModpackVersion, changelog.NewModpackVersion);
