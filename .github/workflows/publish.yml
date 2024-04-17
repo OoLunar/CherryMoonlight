@@ -21,7 +21,7 @@ jobs:
       - name: Install Packwiz
         run: |
           go install github.com/packwiz/packwiz@latest
-          PATH="$PATH:$(go env GOPATH)/bin"
+          export PATH="$PATH:$(go env GOPATH)/bin"
       - name: Update Mods
         run: dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
       - name: Push If Needed

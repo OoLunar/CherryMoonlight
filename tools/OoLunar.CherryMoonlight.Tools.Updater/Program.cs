@@ -251,8 +251,17 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             };
 
             logger.Information("Executing: {Command} {Args}", command, args);
-            process.Start();
-            await process.WaitForExitAsync();
+            try
+            {
+                process.Start();
+                await process.WaitForExitAsync();
+            }
+            catch (Exception error)
+            {
+                logger.Error("Failed to execute {Command} {Args}: {Error}", command, args, error.Message);
+                return (error.Message, 1);
+            }
+
             StringBuilder result = new();
             if (process.StandardOutput.Peek() > -1)
             {
