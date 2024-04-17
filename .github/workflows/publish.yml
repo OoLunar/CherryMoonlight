@@ -18,12 +18,10 @@ jobs:
       - uses: actions/checkout@main
       - name: Install .NET
         uses: actions/setup-dotnet@main
-      - name: Install Packwiz
+      - name: Update Modpack
         run: |
           go install github.com/packwiz/packwiz@latest
-          export PATH="$PATH:$HOME/go/bin/packwiz/bin"
-      - name: Update Mods
-        run: dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
+          PATH="$PATH:~/go/bin/packwiz" dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
       - name: Push If Needed
         id: push
         run: |
