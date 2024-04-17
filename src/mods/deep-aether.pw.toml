@@ -1,0 +1,13 @@
+name = "Deep Aether"
+filename = "deep_aether-1.19.2-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gcHIih5B/versions/nchlO782/deep_aether-1.19.2-1.0.2.jar"
+hash-format = "sha1"
+hash = "cdd2f30faac9172a4da958dd92e7172926ea9713"
+
+[update]
+[update.modrinth]
+mod-id = "gcHIih5B"
+version = "nchlO782"

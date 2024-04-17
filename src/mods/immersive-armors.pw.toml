@@ -1,0 +1,13 @@
+name = "Immersive Armors"
+filename = "immersive_armors-1.5.6+1.19.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eE2Db4YU/versions/rHmDsz9m/immersive_armors-1.5.6%2B1.19.2-forge.jar"
+hash-format = "sha1"
+hash = "75978bc29be3fc55cd875ebdbb11cd9577996431"
+
+[update]
+[update.modrinth]
+mod-id = "eE2Db4YU"
+version = "rHmDsz9m"

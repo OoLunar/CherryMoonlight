@@ -1,0 +1,13 @@
+name = "Collection of Singiro"
+filename = "collection-of-singiro-1.19.x-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2e050a582ea04ea28c541e617397ff70480d581"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4569506
+project-id = 557086

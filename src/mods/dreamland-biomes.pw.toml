@@ -1,0 +1,13 @@
+name = "Dreamland Biomes"
+filename = "Dreamland-forge-1.19.2-1.2.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0fade80eaf616d5dec1ba0e2ff99cb1d14b0ffda"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4094520
+project-id = 639074

@@ -1,0 +1,13 @@
+name = "L_Ender's Cataclysm(Cataclysm)"
+filename = "L_Enders_Cataclysm-1.90 tongue fixed-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/46KJle7n/versions/4YwOMKAp/L_Enders_Cataclysm-1.90%20tongue%20fixed-1.19.2.jar"
+hash-format = "sha1"
+hash = "91e006b50a07b98dd89e138fb0ed73322001a431"
+
+[update]
+[update.modrinth]
+mod-id = "46KJle7n"
+version = "4YwOMKAp"

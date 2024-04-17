@@ -1,0 +1,13 @@
+name = "Origins: Classes (Forge)"
+filename = "origins-classes-forge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HTjxjxqK/versions/Twi1680e/origins-classes-forge-1.2.1.jar"
+hash-format = "sha1"
+hash = "9e80691e15ef2d0170ef3e2d5f333931efa34e7a"
+
+[update]
+[update.modrinth]
+mod-id = "HTjxjxqK"
+version = "Twi1680e"
