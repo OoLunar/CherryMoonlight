@@ -1,0 +1,71 @@
+name: Publish Modpack
+
+on:
+  push:
+    paths:
+      - "src/**"
+    branches:
+      - master
+  schedule:
+    # Once every week
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout
+      - name: Install .NET
+        uses: actions/setup-dotnet
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Update Mods
+        run: dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
+      - name: Push If Needed
+        id: push
+        run: |
+          # Parse the modpack version
+          echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
+
+          # Parse the game version
+          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
+
+          # Check if there are any changes
+          if git diff --exit-code; then
+            exit 0
+          fi
+
+          # Identify as GitHub Actions
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+          # Commit changes
+          git add .
+          git commit -m "Update to $MODPACK_VERSION"
+
+          # Create a new tag
+          git tag -a "$MODPACK_VERSION" -m "Update to $MODPACK_VERSION"
+
+          # Push changes
+          git push
+      - name: Generate Modpack
+        run: packwiz modrinth export -o "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
+      - name: Upload Artifacts
+        uses: actions/upload-artifact
+        with:
+            name: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
+            path: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
+      - uses: Kir-Antipov/mc-publish
+        with:
+          changelog-file: "CHANGELOG.md"
+          files: "*.mrpack"
+          game-versions: ${{ steps.push.outputs.GAME_VERSION }}
+          github-tag: ${{ steps.push.outputs.MODPACK_VERSION }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          loaders: forge
+          name: "Cherry Moonlight ${{ steps.push.outputs.MODPACK_VERSION }}"
+          version-type: release
+          version: ${{ steps.push.outputs.MODPACK_VERSION }}
+          #modrinth-id: null
+          #modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
