@@ -30,11 +30,14 @@ jobs:
           # Update the modpack
           dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
 
+          # Go into the modpack directory
+          cd ${{ github.workspace }}/src
+
           # Parse the modpack version
-          echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
+          echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
 
           # Parse the game version
-          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
+          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
 
           # Check if there are any changes
           if ! git diff --exit-code; then
@@ -55,6 +58,9 @@ jobs:
 
           # Generate the modpack
           packwiz modrinth export -o "CherryMoonlight-$MODPACK_VERSION.mrpack"
+
+          # Move the modpack to the root
+          mv "CherryMoonlight-$MODPACK_VERSION.mrpack" ${{ github.workspace }}
       - name: Upload Artifacts
         uses: actions/upload-artifact@main
         with:
