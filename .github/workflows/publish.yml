@@ -13,20 +13,23 @@ on:
 
 jobs:
   publish:
-    env:
-      PATH: "$HOME/go/bin:$PATH"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
       - name: Install .NET
         uses: actions/setup-dotnet@main
-      - name: Update Modpack
-        run: |
-          go install github.com/packwiz/packwiz@latest
-          dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
-      - name: Push If Needed
+      - name: Update The Modpack
         id: push
         run: |
+          # Install Packwiz
+          go install github.com/packwiz/packwiz@latest
+
+          # Make it available to everyone
+          export PATH="$HOME/go/bin:$PATH"
+
+          # Update the modpack
+          dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
+
           # Parse the modpack version
           echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
 
