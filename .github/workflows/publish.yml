@@ -33,23 +33,21 @@ jobs:
           echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' src/pack.toml)" >> $GITHUB_OUTPUT
 
           # Check if there are any changes
-          if git diff --exit-code; then
-            exit 0
+          if ! git diff --exit-code; then
+            # Identify as GitHub Actions
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+
+            # Commit changes
+            git add .
+            git commit -m "Update to $MODPACK_VERSION"
+
+            # Create a new tag
+            git tag -a "$MODPACK_VERSION" -m "Update to $MODPACK_VERSION"
+
+            # Push changes
+            git push
           fi
-
-          # Identify as GitHub Actions
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
-          # Commit changes
-          git add .
-          git commit -m "Update to $MODPACK_VERSION"
-
-          # Create a new tag
-          git tag -a "$MODPACK_VERSION" -m "Update to $MODPACK_VERSION"
-
-          # Push changes
-          git push
 
           # Generate the modpack
           packwiz modrinth export -o "CherryMoonlight-$MODPACK_VERSION.mrpack"
