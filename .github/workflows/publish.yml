@@ -15,9 +15,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@main
       - name: Install .NET
-        uses: actions/setup-dotnet
+        uses: actions/setup-dotnet@main
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
       - name: Update Mods
@@ -49,14 +49,15 @@ jobs:
 
           # Push changes
           git push
-      - name: Generate Modpack
-        run: packwiz modrinth export -o "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
+
+          # Generate the modpack
+          packwiz modrinth export -o "CherryMoonlight-$MODPACK_VERSION.mrpack"
       - name: Upload Artifacts
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@main
         with:
             name: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
             path: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
-      - uses: Kir-Antipov/mc-publish
+      - uses: Kir-Antipov/mc-publish@v3
         with:
           changelog-file: "CHANGELOG.md"
           files: "*.mrpack"
