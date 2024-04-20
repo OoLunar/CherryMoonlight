@@ -56,9 +56,6 @@ jobs:
             git push
           fi
 
-          # Generate the modpack
-          packwiz modrinth export -o "CherryMoonlight-$MODPACK_VERSION.mrpack"
-
           # Move the modpack to the root
           mv "CherryMoonlight-$MODPACK_VERSION.mrpack" ${{ github.workspace }}
       - name: Upload Artifacts

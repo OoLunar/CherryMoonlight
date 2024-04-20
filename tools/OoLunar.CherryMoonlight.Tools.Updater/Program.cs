@@ -5,6 +5,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
 using OoLunar.CherryMoonlight.Tools.Updater.Packwiz;
@@ -142,6 +143,9 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             // Parse the new state of the modpack
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
+            // Try exporting the modpack
+            await FileManager.PackModpackAsync(logger);
+
             // Print the changelog to console and update the modpack version
             return await GenerateChangelogAsync(modpackVersion, oldEntries, newEntries, logger);
         }
@@ -239,7 +243,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             return 1;
         }
 
-        private static async ValueTask<(string output, int exitCode)> ExecuteProgramAsync(string command, string args, Logger logger)
+        public static async ValueTask<(string output, int exitCode)> ExecuteProgramAsync(string command, string args, Logger logger)
         {
             Process process = new()
             {
@@ -257,12 +261,18 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             try
             {
                 process.Start();
-                await process.WaitForExitAsync();
+
+                CancellationTokenSource source = new(TimeSpan.FromMinutes(2));
+                await process.WaitForExitAsync(source.Token);
             }
             catch (Exception error)
             {
                 logger.Error("Failed to execute {Command} {Args}: {Error}", command, args, error.Message);
-                return (error.Message, 1);
+                if (!process.HasExited)
+                {
+                    process.Kill();
+                    logger.Warning("Killed {Command} {Args}", command, args);
+                }
             }
 
             StringBuilder result = new();
@@ -281,7 +291,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             return (result.ToString().Trim(), process.ExitCode);
         }
 
-        public static async ValueTask<int> GenerateChangelogAsync(Version modpackVersion, IReadOnlyList<PackwizEntry> oldEntries, IReadOnlyList<PackwizEntry> newEntries, Logger logger)
+        private static async ValueTask<int> GenerateChangelogAsync(Version modpackVersion, IReadOnlyList<PackwizEntry> oldEntries, IReadOnlyList<PackwizEntry> newEntries, Logger logger)
         {
             // Generate the changelog
             CherryMoonlightChangelog changelog = new(modpackVersion, oldEntries, newEntries);
