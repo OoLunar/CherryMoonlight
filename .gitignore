@@ -486,3 +486,4 @@ $RECYCLE.BIN/
 # Lunar
 .vscode/
 CHANGELOG.md
+*.mrpack
