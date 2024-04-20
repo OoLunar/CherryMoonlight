@@ -34,13 +34,16 @@ jobs:
           cd ${{ github.workspace }}/src
 
           # Parse the modpack version
-          echo MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
+          MODPACK_VERSION="$(grep -Po 'version = "\K[^"]+' pack.toml)"
+          echo MODPACK_VERSION="$MODPACK_VERSION" >> $GITHUB_OUTPUT
 
           # Parse the game version
-          echo "GAME_VERSION=$(grep -Po 'minecraft = "\K[^"]+' pack.toml)" >> $GITHUB_OUTPUT
+          GAME_VERSION="$(grep -Po 'minecraft = "\K[^"]+' pack.toml)"
+          echo "GAME_VERSION=$GAME_VERSION" >> $GITHUB_OUTPUT
 
           # Check if there are any changes
-          if ! git diff --exit-code; then
+          git diff --exit-code > /dev/null
+          if [ $? -ne 0 ]; then
             # Identify as GitHub Actions
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git config --global user.name "github-actions[bot]"
