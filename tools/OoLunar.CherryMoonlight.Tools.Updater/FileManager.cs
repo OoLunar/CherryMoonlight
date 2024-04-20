@@ -60,23 +60,47 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
 
             // Create the browser
             FirefoxDriver firefox = new(service, options);
-            foreach (string word in output.Split([' ', '\n']))
+
+            bool secondAttempt = false;
+            string[] words = output.Split([' ', '\n']);
+            for (int i = 0; i < words.Length; i++)
             {
-                // Parse each word until we find a download Url
-                if (!word.StartsWith("https://", StringComparison.Ordinal) || !word.Contains("curseforge") || !Uri.IsWellFormedUriString(word, UriKind.Absolute))
+                string word = words[i];
+                try
                 {
-                    continue;
+                    // Parse each word until we find a download Url
+                    if (!word.StartsWith("https://", StringComparison.Ordinal) || !word.Contains("curseforge") || !Uri.IsWellFormedUriString(word, UriKind.Absolute))
+                    {
+                        continue;
+                    }
+
+                    // Replace the /files with /download
+                    string url = word.Replace("/files", "/download");
+                    firefox.Navigate().GoToUrl(url);
+
+                    // Wait for the file to be fully downloaded
+                    await Task.Delay(TimeSpan.FromSeconds(10));
+
+                    // Let the user know
+                    logger.Information("Downloaded {Url}", url);
+                    secondAttempt = false;
                 }
+                catch (WebDriverException)
+                {
+                    if (secondAttempt)
+                    {
+                        logger.Error("Failed to download {Url} after retrying", word);
+                        continue;
+                    }
 
-                // Replace the /files with /download
-                string url = word.Replace("/files", "/download");
-                firefox.Navigate().GoToUrl(url);
-
-                // Wait for the file to be fully downloaded
-                await Task.Delay(TimeSpan.FromSeconds(10));
-
-                // Let the user know
-                logger.Information("Downloaded {Url}", url);
+                    logger.Warning("Failed to download {Url}, retrying...", word);
+                    secondAttempt = true;
+                    i--;
+                }
+                catch (Exception error)
+                {
+                    logger.Error(error, "Failed to download {Url}", word);
+                }
             }
 
             // Close the browser

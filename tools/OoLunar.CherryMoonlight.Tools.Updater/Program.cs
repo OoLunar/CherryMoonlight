@@ -395,6 +395,15 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                     // Update the version
                     child.Value = new StringValueSyntax(modpackVersion.ToString());
 
+                    // Save the file
+                    StreamWriter packFileStream = new(Path.Join(ThisAssembly.Project.ProjectRoot, PACK_FILE_NAME), new FileStreamOptions()
+                    {
+                        Mode = FileMode.Truncate
+                    });
+
+                    syntax.WriteTo(packFileStream);
+                    await packFileStream.DisposeAsync();
+
                     // Update the hashes
                     await ExecuteProgramAsync(PackwizBinary, "refresh", logger);
 
