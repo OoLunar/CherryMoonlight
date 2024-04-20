@@ -291,11 +291,6 @@ hash = "e0581e9e0997c120db5f3e08b760e4258220284dbfbeb94a237ee6bbab4b277e"
 metafile = true
 
 [[files]]
-file = "mods/l_enders-cataclysm(cataclysm).pw.toml"
-hash = "12b8122c4690b42ff5a2ff3f2a62c55b3d38c459b1434d6b04b14c67670ca8e9"
-metafile = true
-
-[[files]]
 file = "mods/lets-do-bakery.pw.toml"
 hash = "00f69084bb9e89a2a98ea47bcbb2e4fac243026af54bbb248485c60ffd27924d"
 metafile = true
@@ -318,11 +313,6 @@ metafile = true
 [[files]]
 file = "mods/meet-your-fight.pw.toml"
 hash = "e4370963b90048426c8c135b85f5f1ab37ea04ca090bc9d2e7209533904d5e2f"
-metafile = true
-
-[[files]]
-file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "89032b1a50d49407a905ae0af9f65e5248357a7c19cf454a9a0f8ed6478ac365"
 metafile = true
 
 [[files]]
