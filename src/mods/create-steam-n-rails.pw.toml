@@ -1,13 +1,13 @@
 name = "Create: Steam 'n' Rails"
-filename = "Steam_Rails-1.6.1+forge-mc1.19.2.jar"
+filename = "Steam_Rails-1.6.2+forge-mc1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZzjhlDgM/versions/wGx3fVnx/Steam_Rails-1.6.1%2Bforge-mc1.19.2.jar"
+url = "https://cdn.modrinth.com/data/ZzjhlDgM/versions/2EPYYLVW/Steam_Rails-1.6.2%2Bforge-mc1.19.2.jar"
 hash-format = "sha1"
-hash = "4c662a3b60a4be31ba4b251c8b46d44f79523855"
+hash = "fb7f4d674563f880324e10c2f52f0ec4aefaedc2"
 
 [update]
 [update.modrinth]
 mod-id = "ZzjhlDgM"
-version = "wGx3fVnx"
+version = "2EPYYLVW"
