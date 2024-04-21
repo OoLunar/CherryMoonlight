@@ -1,0 +1,29 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "auto_refill_match_any_food": true,
+        "type_visual_durability_notification": "CHAT",
+        "audio_durability_notification": {
+            "value": false
+        },
+        "type_visual_replace_success_notification": "CHAT",
+        "type_visual_replace_failed_notification": "CHAT"
+    }
+}
