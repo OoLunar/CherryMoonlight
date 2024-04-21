@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
+hash = "117028aee504fb12600efb5bff26e8a3ee13d472ebe7e209ee122112b98fdb8e"
 metafile = true
 
 [[files]]
@@ -253,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "69c231e44f9d8da3e56a7f2d0b2cc570a8ac05117ee4841233bdee066b1a6b4d"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "cffcf234e2e1c4d17635471bba6da79a99837f6755e9cc8201b22abff447a0fb"
 metafile = true
 
 [[files]]
