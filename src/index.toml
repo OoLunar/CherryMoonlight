@@ -701,8 +701,8 @@ hash = "f24be919aa35c39f01c1f507415b1a50b922082c77f9dc3f5379bf95b90bc44a"
 metafile = true
 
 [[files]]
-file = "mods/towers-of-the-wild-modded.pw.toml"
-hash = "710f0aab382152ac34352d5d46e531da573f9050192492a20595bcdf4a30363e"
+file = "mods/totw-modded.pw.toml"
+hash = "aabd57f85316f96f3263a7d8d882fc57a74bb26409cfae19a06cad5798c6818c"
 metafile = true
 
 [[files]]
@@ -726,8 +726,8 @@ hash = "898eba478cec799f24c54e938d713bfeef29312ea91f9f6fcd7f13a2b8559ff8"
 metafile = true
 
 [[files]]
-file = "mods/wabi-sabi-structures-forge.pw.toml"
-hash = "e0b5ce05e1aac7b2882342f9076d3b9adac969c902d5bd546b0708dcb9a01b43"
+file = "mods/wabi-sabi-structures.pw.toml"
+hash = "80538fd47a17a1bfefae58d438add7af30a14efaf2e4ec66730ad38b311f1a40"
 metafile = true
 
 [[files]]

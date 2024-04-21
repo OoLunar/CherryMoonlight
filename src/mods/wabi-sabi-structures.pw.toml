@@ -1,0 +1,13 @@
+name = "Wabi-Sabi Structures"
+filename = "Wabi-Sabi-Structures-1.2.0-1.19-Forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vr3O6THr/versions/2tNlaAHh/Wabi-Sabi-Structures-1.2.0-1.19-Forge.jar"
+hash-format = "sha1"
+hash = "f51584915a2b3d4a1bb29d6653638f12e39e8384"
+
+[update]
+[update.modrinth]
+mod-id = "Vr3O6THr"
+version = "2tNlaAHh"
