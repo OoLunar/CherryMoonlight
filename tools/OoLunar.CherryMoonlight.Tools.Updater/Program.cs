@@ -143,11 +143,12 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             // Parse the new state of the modpack
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
+            // Print the changelog to console and update the modpack version
+            await GenerateChangelogAsync(modpackVersion, oldEntries, newEntries, logger);
+
             // Try exporting the modpack
             await FileManager.PackModpackAsync(logger);
-
-            // Print the changelog to console and update the modpack version
-            return await GenerateChangelogAsync(modpackVersion, oldEntries, newEntries, logger);
+            return 0;
         }
 
         private static async ValueTask<Version> GrabModpackVersionAsync(Logger logger)
@@ -297,7 +298,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             return (result.ToString().Trim(), process.ExitCode);
         }
 
-        private static async ValueTask<int> GenerateChangelogAsync(Version modpackVersion, IReadOnlyList<PackwizEntry> oldEntries, IReadOnlyList<PackwizEntry> newEntries, Logger logger)
+        private static async ValueTask GenerateChangelogAsync(Version modpackVersion, IReadOnlyList<PackwizEntry> oldEntries, IReadOnlyList<PackwizEntry> newEntries, Logger logger)
         {
             // Generate the changelog
             CherryMoonlightChangelog changelog = new(modpackVersion, oldEntries, newEntries);
@@ -389,7 +390,6 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             if (changelog.OldModpackVersion == changelog.NewModpackVersion)
             {
                 logger.Information("No changes were made to the modpack version.");
-                return 0;
             }
 
             // Update the modpack version
@@ -411,13 +411,11 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
 
                     // Log and exit
                     logger.Information("Modpack updated from {OldVersion} to {NewVersion}", changelog.OldModpackVersion, changelog.NewModpackVersion);
-                    return 0;
                 }
             }
 
             // This presumably happened when the version key was not found
             logger.Error("Failed to bump modpack version!");
-            return 1;
         }
     }
 }
