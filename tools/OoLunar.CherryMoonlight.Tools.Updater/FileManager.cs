@@ -37,6 +37,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             profile.SetPreference("browser.download.folderList", 2);
             profile.SetPreference("browser.download.dir", _importPath);
             profile.SetPreference("browser.helperApps.neverAsk.saveToDisk", "text/csv");
+            profile.SetPreference("network.http.connection-timeout", 10);
 
             FirefoxOptions options = new()
             {
