@@ -1512,6 +1512,11 @@ hash = "9307d7537501310581a6036c788e0f306988b4b90536d629eacaa83a8987b833"
 metafile = true
 
 [[files]]
+file = "mods/armor-visibility.pw.toml"
+hash = "fd246068b35c4219a9146d267f8f1d02cf34bce069405e164a73addd5466c370"
+metafile = true
+
+[[files]]
 file = "mods/ars-elemental.pw.toml"
 hash = "5d86bcaf1ee621abef8f5169485e2647e2f0fb0c9c5fb90b1fd8b359e57f3382"
 metafile = true
@@ -1627,6 +1632,11 @@ hash = "679d617d79814f4b19c42f67cf2e8f42c671983207d89e5fd04f98c8ca01f1fb"
 metafile = true
 
 [[files]]
+file = "mods/chisels-bits.pw.toml"
+hash = "c6545c6b2f4ccafc9d611b4ee438623a2ccf4f830674eed92ad6fed608cbf219"
+metafile = true
+
+[[files]]
 file = "mods/cleardespawn.pw.toml"
 hash = "676398461e20797db092dcf468d65d21f34bacac30f7304d1c6e5e72739934e5"
 metafile = true
@@ -1643,7 +1653,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "8aaf51742e0465c6c9479daf680994b38f9f006c7c9ef51c2305911e0927d81b"
+hash = "751502d19847056b678af132a713e9892c5f179e45778c68e2113b53e693ce76"
 metafile = true
 
 [[files]]
@@ -1728,7 +1738,7 @@ metafile = true
 
 [[files]]
 file = "mods/double-doors.pw.toml"
-hash = "d8de7f9abea5c269a94ba73115ff8529bd6e70020c541c934b97ef09a8b8f19e"
+hash = "fcfc7b3c31446f7080c309e11a4f1bb9de11fb3c6957adcdf5686996d0b7b1d8"
 metafile = true
 
 [[files]]
@@ -1944,6 +1954,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "9cba22bdbc8c89d44438b1e22ae677f7d6bf1c7f1adecfff2760427f2d974dee"
+metafile = true
+
+[[files]]
+file = "mods/mrcrayfish-furniture-mod.pw.toml"
+hash = "d7a6e463e3c1b898e3760ac96566202012f854ce556f8b05fbb6a39cd343ba66"
 metafile = true
 
 [[files]]
@@ -2264,4 +2279,9 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "561ebbd7dead7f2a2944ea002c676caa972169a547f06e093656fd8813c63598"
+metafile = true
+
+[[files]]
+file = "resourcepacks/no-z-fighting.pw.toml"
+hash = "121c5d2c2a2b051a5c90c90c3d6ba9d429bb2c4136fd32c2de154f0069ba3f0e"
 metafile = true
