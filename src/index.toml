@@ -842,7 +842,7 @@ hash = "c43808efd4186e0d7442927c2597542deb3d0075a693f7e537bb08901e870bdc"
 
 [[files]]
 file = "configs/defaultoptions/options.txt"
-hash = "811f012576386564d585347936eddfa773d64a3d5fe7d6200d2036e08323aa1d"
+hash = "d0e052e091e3dcbee02c2e9e26b2c93853e0fa50365dec225064abd6e02a87f9"
 
 [[files]]
 file = "configs/delightful-common.toml"
@@ -1458,7 +1458,7 @@ hash = "0a1b061e56620615257742d121faa54f502b2c3459b25c2e57128f58afe16d62"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "b810210869bbf331cf66edb1b26f63d0d018e2541c1d582f0ebc509c12fc4603"
+hash = "271e8b437a2bdeb06c08b177fcefab9c051eca67756d56dd4073206c8caee111"
 metafile = true
 
 [[files]]
@@ -1637,6 +1637,11 @@ hash = "c6545c6b2f4ccafc9d611b4ee438623a2ccf4f830674eed92ad6fed608cbf219"
 metafile = true
 
 [[files]]
+file = "mods/ciscos-content.pw.toml"
+hash = "d7eee1cc6a06c7ae24a5e486d64927763d38ae5408eddb2800901abc7ecc6eac"
+metafile = true
+
+[[files]]
 file = "mods/cleardespawn.pw.toml"
 hash = "676398461e20797db092dcf468d65d21f34bacac30f7304d1c6e5e72739934e5"
 metafile = true
@@ -1653,7 +1658,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "751502d19847056b678af132a713e9892c5f179e45778c68e2113b53e693ce76"
+hash = "00685761904e4354efcb51780730e1cd9f3b15bba0fce064a028b326fce11bcd"
 metafile = true
 
 [[files]]
@@ -1703,7 +1708,12 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "0daa38ae321a7d73f2450a00ada162fe2e5ba7313589d71612ba53c971522f34"
+hash = "e715503899e389e0d27baf13447a9e10d195f08cdf52d24b719de376e92c36b1"
+metafile = true
+
+[[files]]
+file = "mods/dark-paintings.pw.toml"
+hash = "d6302ba21708dabe70fba523d1c6212bffff406ca37b9b5b70502944b11a383e"
 metafile = true
 
 [[files]]
@@ -1752,6 +1762,11 @@ hash = "572b448ba22a7efcd0761225d3593be32c3cd489f752c36b9b812e3ac1af3643"
 metafile = true
 
 [[files]]
+file = "mods/dungeon-crawl.pw.toml"
+hash = "d30f94aab18d9ad671e52d77c8b9b081c46d9084a7e8177d03b4723e1e094a4e"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-plus.pw.toml"
 hash = "8e0f5af61a6236cbf9df91a45b94c45d02e1e08fe88edcded121f46a575f2575"
 metafile = true
@@ -1789,6 +1804,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "ea0d8c35669646b8d739a20b97a28c48744dcdea889ccc3c39ccd1431bf5cc6c"
+metafile = true
+
+[[files]]
+file = "mods/fairy-lights.pw.toml"
+hash = "20a984816bd95bc61df2016982457dfd34e59426cf1f4844ba1035489ef80e86"
 metafile = true
 
 [[files]]
@@ -1849,6 +1869,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-armors.pw.toml"
 hash = "30e1086c8c1e9b3c09b5b8031f9497802ff1220ac5e522eec151465a0fdba5af"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "6d09f14cba4f0c82bf84e25910688921d47fd9aacf12d007c903bfd185fb12dc"
 metafile = true
 
 [[files]]
@@ -1914,6 +1939,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "19648392fc85169b938ace6d0d1cfd91c182d69f346c20933c12a597dd91a004"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "89620c90303eef0849428854b88d84a3972cb715af5d4ba2b245644f2772e108"
 metafile = true
 
 [[files]]
@@ -2154,6 +2184,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "970bd250c0bbd6ce0249c6e5bde09adabda4969e13ead743f684549b31beaace"
+metafile = true
+
+[[files]]
+file = "mods/texels-paintings.pw.toml"
+hash = "5e60d5a373116cfb333014c36eaf0c2db14948d16d2afc7f7043adfa70e98dbb"
 metafile = true
 
 [[files]]
