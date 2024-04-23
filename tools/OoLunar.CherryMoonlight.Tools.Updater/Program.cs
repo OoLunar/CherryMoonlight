@@ -390,6 +390,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             if (changelog.OldModpackVersion == changelog.NewModpackVersion)
             {
                 logger.Information("No changes were made to the modpack version.");
+                return;
             }
 
             // Update the modpack version
@@ -411,11 +412,13 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
 
                     // Log and exit
                     logger.Information("Modpack updated from {OldVersion} to {NewVersion}", changelog.OldModpackVersion, changelog.NewModpackVersion);
+                    return;
                 }
             }
 
             // This presumably happened when the version key was not found
             logger.Error("Failed to bump modpack version!");
+            return;
         }
     }
 }
