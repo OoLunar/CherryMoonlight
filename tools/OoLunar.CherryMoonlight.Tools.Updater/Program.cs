@@ -198,6 +198,12 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 List<PackwizEntry> currentVersions = [];
                 foreach (PackwizIndexFile mod in index.Files)
                 {
+                    if (!mod.File.StartsWith("mods/", StringComparison.OrdinalIgnoreCase))
+                    {
+                        logger.Debug("Skipping {Mod} as it is not a mod.", mod.File);
+                        continue;
+                    }
+
                     // Parse the file
                     string filepath = Path.Combine(ThisAssembly.Project.ProjectRoot, "src", mod.File);
                     DocumentSyntax modSyntax = Toml.Parse(await File.ReadAllBytesAsync(filepath), filepath, TomlParserOptions.ParseOnly);
