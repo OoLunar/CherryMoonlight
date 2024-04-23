@@ -1637,11 +1637,6 @@ hash = "c6545c6b2f4ccafc9d611b4ee438623a2ccf4f830674eed92ad6fed608cbf219"
 metafile = true
 
 [[files]]
-file = "mods/ciscos-content.pw.toml"
-hash = "d7eee1cc6a06c7ae24a5e486d64927763d38ae5408eddb2800901abc7ecc6eac"
-metafile = true
-
-[[files]]
 file = "mods/cleardespawn.pw.toml"
 hash = "676398461e20797db092dcf468d65d21f34bacac30f7304d1c6e5e72739934e5"
 metafile = true
