@@ -79,7 +79,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                     firefox.Navigate().GoToUrl(url);
 
                     // Wait for the file to be fully downloaded
-                    await Task.Delay(TimeSpan.FromSeconds(10));
+                    await Task.Delay(TimeSpan.FromSeconds(5));
 
                     // Let the user know
                     logger.Information("Downloaded {Url}", url);
