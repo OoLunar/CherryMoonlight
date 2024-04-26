@@ -372,7 +372,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 stringBuilder.AppendLine();
                 foreach ((PackwizEntry mod, (string oldVersion, string newVersion) versions) in changelog.UpdatedMods)
                 {
-                    logger.Information("{Mod} was updated from {OldVersion} to {NewVersion}", mod.Name, versions.oldVersion, versions.newVersion);
+                    logger.Information("- {Mod} was updated from {OldVersion} to {NewVersion}", mod.Name, versions.oldVersion, versions.newVersion);
                     stringBuilder.AppendLine($"- `{mod.Name}` was updated from `{versions.oldVersion}` to `{versions.newVersion}`");
                 }
             }

@@ -62,7 +62,12 @@ jobs:
 
             # Commit changes
             git add .
-            git commit -m "Update to $MODPACK_VERSION"
+
+            # Set commit message
+            echo "Update to $MODPACK_VERSION" >> .commit-message
+            echo >> .commit-message
+            cat CHANGELOG.md >> .commit-message
+            git commit -F .commit-message
 
             # Create a new tag
             git tag -a "$MODPACK_VERSION" -m "Update to $MODPACK_VERSION"
@@ -72,12 +77,12 @@ jobs:
           fi
 
           # Move the modpack to the root
-          mv "CherryMoonlight-$MODPACK_VERSION.mrpack" ${{ github.workspace }}
+          mv "CherryMoonlight-$MODPACK_VERSION.zip" ${{ github.workspace }}
       - name: Upload Artifacts
         uses: actions/upload-artifact@main
         with:
-            name: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
-            path: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.mrpack"
+            name: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.zip"
+            path: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.zip"
       - uses: Kir-Antipov/mc-publish@v3
         with:
           changelog-file: "CHANGELOG.md"
