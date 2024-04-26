@@ -1856,6 +1856,11 @@ hash = "cf303e609b0beaf097122eecfa869d21be642e22465021f4f5aa0fa38c72b119"
 metafile = true
 
 [[files]]
+file = "mods/held-item-tooltips.pw.toml"
+hash = "ab1b8e35eca9ed480255cafd24a9f7fd3b93c9974103bf539e0bb978ada26ec7"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "655ca0b2bf050048f45312ad2ac15ce2eec09455b8902412907eab3a491bb31f"
 metafile = true
@@ -2143,6 +2148,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "3d227a42b3b9083d87953d9b609a1cb73b905a06bebad07d0180775c1ff0cbd4"
+metafile = true
+
+[[files]]
+file = "mods/sorted-enchantments.pw.toml"
+hash = "1ea1ce7169a0664fef7c24357fc6209ffdf6c1674b8b3f09de6c8ddcc37ba272"
 metafile = true
 
 [[files]]
