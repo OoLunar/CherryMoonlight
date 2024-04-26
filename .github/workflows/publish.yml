@@ -86,8 +86,8 @@ jobs:
       - uses: Kir-Antipov/mc-publish@v3
         with:
           changelog-file: "CHANGELOG.md"
-          #curseforge-id: 1008179
-          #curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          curseforge-id: 1008179
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           files: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.zip"
           game-versions: ${{ steps.push.outputs.GAME_VERSION }}
           github-tag: ${{ steps.push.outputs.MODPACK_VERSION }}
