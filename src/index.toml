@@ -1997,6 +1997,11 @@ hash = "bb1a457b04dd29a7624c40290376d6e5252d8eb6c7aa22214a06c318c027b9e7"
 metafile = true
 
 [[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "37719db4c84932ec073eb8c8d6471c6a03936cf2d961138edf120e53a2e85505"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "7942da454d725373481664c245954c24764d26317968c8c4473743e5f54bbf1d"
 metafile = true
@@ -2069,6 +2074,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "5f9e78463e989b8f8c40ecf62a223a9a03ea70eee437cba06525294ca4246727"
+metafile = true
+
+[[files]]
+file = "mods/portals-gui.pw.toml"
+hash = "cfb1cce6f9bad72cdd8805e1f760e0fd01f798698d82bf211b4b8433595518fc"
 metafile = true
 
 [[files]]

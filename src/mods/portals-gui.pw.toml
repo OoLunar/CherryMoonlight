@@ -1,0 +1,13 @@
+name = "Portals Gui"
+filename = "portalsgui-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kc2GyRHY/versions/abh53vCz/portalsgui-1.0.1.jar"
+hash-format = "sha1"
+hash = "8fd4a31c605d2a78f3158f5f042e328701f926d5"
+
+[update]
+[update.modrinth]
+mod-id = "kc2GyRHY"
+version = "abh53vCz"
