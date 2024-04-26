@@ -1,0 +1,13 @@
+name = "Origins Expanded Foods"
+filename = "Origins_Expanded_Foods_v2.3+1.19.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aff7e7ff3b00cb509b195a42a4af48191182ca28"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4967456
+project-id = 825997

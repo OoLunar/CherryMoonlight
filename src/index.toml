@@ -1457,6 +1457,10 @@ file = "configs/xaeroworldmap.txt"
 hash = "0a1b061e56620615257742d121faa54f502b2c3459b25c2e57128f58afe16d62"
 
 [[files]]
+file = "datapacks/Cisco Rpg Origins 1.0.2.zip"
+hash = "c463433f843b23b7d85d5f7111819a299a6df29ff230e7e4348ea0cec705da03"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "271e8b437a2bdeb06c08b177fcefab9c051eca67756d56dd4073206c8caee111"
 metafile = true
@@ -2324,4 +2328,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/no-z-fighting.pw.toml"
 hash = "121c5d2c2a2b051a5c90c90c3d6ba9d429bb2c4136fd32c2de154f0069ba3f0e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/origins-expanded-foods.pw.toml"
+hash = "ace22a141a315d2d0cbf173dc5b85396c69bf276a9d4e700e4ba631075da4935"
 metafile = true
