@@ -487,3 +487,4 @@ $RECYCLE.BIN/
 .vscode/
 CHANGELOG.md
 *.mrpack
+*.zip
