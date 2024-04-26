@@ -1,0 +1,13 @@
+name = "ShetiPhianCore"
+filename = "shetiphiancore-forge-1.19-3.11.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oX7uP2kS/versions/DXxDIoMO/shetiphiancore-forge-1.19-3.11.11.jar"
+hash-format = "sha1"
+hash = "9413026897f627507b700bb5b7206497d4ff6524"
+
+[update]
+[update.modrinth]
+mod-id = "oX7uP2kS"
+version = "DXxDIoMO"

@@ -1,0 +1,13 @@
+name = "Tiny Item Animations"
+filename = "tia-1.19.2-1.0-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wMkevcSR/versions/C5JsLyaK/tia-1.19.2-1.0-forge.jar"
+hash-format = "sha1"
+hash = "229b1fe4ed084961e0699b94d1515abd0e73b63a"
+
+[update]
+[update.modrinth]
+mod-id = "wMkevcSR"
+version = "C5JsLyaK"

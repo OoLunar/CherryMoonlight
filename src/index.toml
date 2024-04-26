@@ -1616,6 +1616,11 @@ hash = "cb66f9704e31a1e58068328943e74c604408cc380a576b396baab69a2dfb14f0"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "cd0ea1a626697c69a958b5d91615f4b61f6e4f275b55b2471140281e22cc485e"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "1a7e42856ecd67e6d001a3383180248f40e6bc91c25c97f8bac2a3eff735c40c"
 metafile = true
@@ -1996,6 +2001,11 @@ hash = "d7a6e463e3c1b898e3760ac96566202012f854ce556f8b05fbb6a39cd343ba66"
 metafile = true
 
 [[files]]
+file = "mods/multibeds.pw.toml"
+hash = "a6eccd1a29b6d93efbe648dcd5732a63cabe2fac24e8b87689e447158a1e99d9"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "01a057038ff0001c216ed30504059aa681151010aa9b2810214e166de1da61a8"
 metafile = true
@@ -2066,6 +2076,11 @@ hash = "a5df47c00cbbf1e12d8b77cd315cef006a1f3004c83d0c26b42b9295fce6689c"
 metafile = true
 
 [[files]]
+file = "mods/pick-up-notifier.pw.toml"
+hash = "8a23fb9d173401ca3b1eeeba4771fe3ee4dccdc43693daf88f26271d6417660f"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "eb6b168caf4f8b9f3e501e97caaa61d207ab83d6328ce2f4960c4003eca73e90"
 metafile = true
@@ -2126,6 +2141,11 @@ hash = "3c827ff9fbf2b5bd9aaa1eedd0e246fbe15e76307de20098ec4e2f27ee18a415"
 metafile = true
 
 [[files]]
+file = "mods/shetiphiancore.pw.toml"
+hash = "c099922d35787f4e8ec9f687fcae211b072975e5c1ccbf984544f529d45a70c9"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "34ab9d5f597076dad44f564ad6a44352bcdc7c548b140dd37592954b8d221728"
 metafile = true
@@ -2138,6 +2158,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "823b602031e0c9d527eff5aeba73d129880af97de463a42a41b5bcae6d9c31fb"
+metafile = true
+
+[[files]]
+file = "mods/slimyboyos.pw.toml"
+hash = "7af509d96948371e188672118820ba7e6bcf27fa530708e6c5c3c2e43d510dde"
 metafile = true
 
 [[files]]
@@ -2218,6 +2243,11 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "176eda94ad465f880e240ef29685dfd9b21aac18c1606c8d526b9dcad4a232f4"
+metafile = true
+
+[[files]]
+file = "mods/tiny-item-animations.pw.toml"
+hash = "d32ec93eb025c688325e27d255e547439b1c7b6eb1f9f6621c8f985d683cd220"
 metafile = true
 
 [[files]]

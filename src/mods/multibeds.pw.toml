@@ -1,0 +1,13 @@
+name = "MultiBeds"
+filename = "multibeds-forge-1.19-1.10.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JyytxgF6/versions/KcnDcPar/multibeds-forge-1.19-1.10.7.jar"
+hash-format = "sha1"
+hash = "83b0529830c572c14b15a8487bd2aa5d70f412c7"
+
+[update]
+[update.modrinth]
+mod-id = "JyytxgF6"
+version = "KcnDcPar"

@@ -1,0 +1,13 @@
+name = "SlimyBoyos"
+filename = "SlimyBoyos-forge-1.19.2-5.0.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aT62gFqe/versions/eNopsAEF/SlimyBoyos-forge-1.19.2-5.0.0.5.jar"
+hash-format = "sha1"
+hash = "46d510338d06b6e3c69f2e1439d1ce60cb5c1133"
+
+[update]
+[update.modrinth]
+mod-id = "aT62gFqe"
+version = "eNopsAEF"
