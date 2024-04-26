@@ -1,13 +1,13 @@
 name = "Strictly Origins [FORGE]"
-filename = "strictly_origins_v8_1.19.2.jar"
+filename = "strictly_origins_v9_1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "37d8880f8b298ed27be7377e9ccfa3092935137f"
+hash = "3ddb7354b2210f2f7659f4ef65ffac2896b8cf60"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5255252
+file-id = 5291997
 project-id = 649722

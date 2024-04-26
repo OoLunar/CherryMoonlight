@@ -1657,7 +1657,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "00685761904e4354efcb51780730e1cd9f3b15bba0fce064a028b326fce11bcd"
+hash = "1a60528f7ba91db1ae7833ed7d30985fc0af06bd033c62dec1af9a859db7c296"
 metafile = true
 
 [[files]]
@@ -2167,7 +2167,7 @@ metafile = true
 
 [[files]]
 file = "mods/strictly-origins.pw.toml"
-hash = "161d2c4148d302a0ab7751c07917e5874c59d3cb8a22ced2420767c8bd1d47ae"
+hash = "9520aea8f8b9e75899c0814332d7b8f82a66b88cbc3fa7005597350ef161c16c"
 metafile = true
 
 [[files]]
