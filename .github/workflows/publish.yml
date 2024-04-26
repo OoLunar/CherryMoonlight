@@ -10,6 +10,11 @@ on:
     # Once every week
     - cron: "0 0 * * 0"
   workflow_dispatch:
+    inputs:
+      version:
+        description: "The version of the modpack to update to"
+        required: false
+        type: string
 
 jobs:
   publish:
@@ -29,6 +34,11 @@ jobs:
 
           # Make it available to everyone
           export PATH="$HOME/go/bin:$PATH"
+
+          # Set the version of the modpack, if specified
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            export MODPACK_VERSION="${{ github.event.inputs.version }}"
+          fi
 
           # Update the modpack
           dotnet run --project ${{ github.workspace }}/tools/OoLunar.CherryMoonlight.Tools.Updater/CherryMoonlight.csproj
@@ -71,7 +81,6 @@ jobs:
       - uses: Kir-Antipov/mc-publish@v3
         with:
           changelog-file: "CHANGELOG.md"
-          files: "*.mrpack"
           game-versions: ${{ steps.push.outputs.GAME_VERSION }}
           github-tag: ${{ steps.push.outputs.MODPACK_VERSION }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -79,5 +88,6 @@ jobs:
           name: "Cherry Moonlight ${{ steps.push.outputs.MODPACK_VERSION }}"
           version-type: release
           version: ${{ steps.push.outputs.MODPACK_VERSION }}
-          #modrinth-id: null
-          #modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: 1008179
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          curseforge-files: "CherryMoonlight-${{ steps.push.outputs.MODPACK_VERSION }}.zip"

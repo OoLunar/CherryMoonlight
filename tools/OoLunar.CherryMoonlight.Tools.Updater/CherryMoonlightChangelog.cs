@@ -59,7 +59,13 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             UpdatedMods = updatedMods;
-            if (minorBump)
+            string? explicitVersion = Environment.GetEnvironmentVariable("MODPACK_VERSION");
+            if (!string.IsNullOrWhiteSpace(explicitVersion) && Version.TryParse(explicitVersion, out Version? explicitParsedVersion))
+            {
+                NewModpackVersion = explicitParsedVersion;
+                return;
+            }
+            else if (minorBump)
             {
                 NewModpackVersion = new Version(currentModpackVersion.Major, currentModpackVersion.Minor + 1, 0);
             }
