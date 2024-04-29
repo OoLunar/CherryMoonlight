@@ -1671,6 +1671,11 @@ hash = "8cc83e5aea39258ea9d5f5c71f305e1175c2269f500c9d993c1e60f0008f8454"
 metafile = true
 
 [[files]]
+file = "mods/connectedness.pw.toml"
+hash = "7b8944c22e5deef4ec333194484db891130d683613e7ed9714e90f2c4ee77fed"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "7342959eb86faf584e6d64417064dd793ae6b4667f51954f4169d11fe5f0d5da"
 metafile = true
@@ -1803,6 +1808,16 @@ metafile = true
 [[files]]
 file = "mods/endrem.pw.toml"
 hash = "e04bcd0d75d655998cd976406d1bc476239fb0c2f52d36a62686a48bba4b554f"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "81c23fdd83b7e2024a0e24ec7a5cdb08afbc906a20d750353f9be86cae52dbdf"
+metafile = true
+
+[[files]]
+file = "mods/entity-texture-features-fabric.pw.toml"
+hash = "d97bf47efeb2358298cfbe5c62d271b8af88ba0186d08d3bbea060cc0bcadaac"
 metafile = true
 
 [[files]]
@@ -2116,6 +2131,11 @@ hash = "8ff12703a912a4fba29cc4d6ca4952e2d2365412649a646739f2673482ef2148"
 metafile = true
 
 [[files]]
+file = "mods/reforgium.pw.toml"
+hash = "fa67ee268eb8746d34bf965162c5a058da1ba465538ff0dce73da70c6c2d8902"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "b6729ac149be954d67bfae7b38ee7cf65de322a994de91ad7a0e96c73e530ede"
 metafile = true
@@ -2363,6 +2383,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "561ebbd7dead7f2a2944ea002c676caa972169a547f06e093656fd8813c63598"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "2f22b3ef24cac4bc38598f789a80d7581f2a8804c6d75621f1c6f37d64c4713b"
 metafile = true
 
 [[files]]
