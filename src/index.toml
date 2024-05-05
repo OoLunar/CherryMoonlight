@@ -1861,11 +1861,6 @@ hash = "ed6f0207affbcdbc338b0af19a596451230a25255f425b3b4670a0104368c95c"
 metafile = true
 
 [[files]]
-file = "mods/forge-tooltip-texts-scroller.pw.toml"
-hash = "c392dd4b590c6bab0b9d4ba1fab6cf18277cb2e92541cfc385a4c0eaf1c2a32a"
-metafile = true
-
-[[files]]
 file = "mods/forgeshot.pw.toml"
 hash = "b06456c6194725859a8ee7217ded783ea613b8c8095e33779a87858cdb35da0c"
 metafile = true
