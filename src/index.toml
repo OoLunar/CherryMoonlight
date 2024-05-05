@@ -1462,7 +1462,7 @@ hash = "c463433f843b23b7d85d5f7111819a299a6df29ff230e7e4348ea0cec705da03"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "271e8b437a2bdeb06c08b177fcefab9c051eca67756d56dd4073206c8caee111"
+hash = "f26fb3ebc03df700a9af26fa5084b2034b1ce5ede156f5112aedb6a4e14162cb"
 metafile = true
 
 [[files]]
@@ -1477,7 +1477,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "ada693ed76e9259bbd7682cad69527dbc13ab82cc497a183b5ab7ca27b23d930"
+hash = "faecbf1a1a60c3d2ff515e6d27dccdbd9ecf620621b3b9986615bd1f573972e3"
 metafile = true
 
 [[files]]
@@ -1662,7 +1662,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "1a60528f7ba91db1ae7833ed7d30985fc0af06bd033c62dec1af9a859db7c296"
+hash = "7773f39c0f94bc05cc52f54779a9b86487f51eb2c47967d4c94c3ca3f98d4a90"
 metafile = true
 
 [[files]]
@@ -1717,7 +1717,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "e715503899e389e0d27baf13447a9e10d195f08cdf52d24b719de376e92c36b1"
+hash = "4de1820ba124b4c7e86396baf68401fc7355c0c78fd861ccbed0971aced2a711"
 metafile = true
 
 [[files]]
@@ -1812,12 +1812,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "81c23fdd83b7e2024a0e24ec7a5cdb08afbc906a20d750353f9be86cae52dbdf"
+hash = "d42359be3bf3bdb65c5072f06d4f34e1ea9b40184af94f1631589d61da0a007a"
 metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "d97bf47efeb2358298cfbe5c62d271b8af88ba0186d08d3bbea060cc0bcadaac"
+hash = "3d8b8da8c1c77fec8c3ebab23b5328f02d6302b8e4d3ee0ab96953c23441fe87"
 metafile = true
 
 [[files]]
@@ -2012,7 +2012,7 @@ metafile = true
 
 [[files]]
 file = "mods/multibeds.pw.toml"
-hash = "a6eccd1a29b6d93efbe648dcd5732a63cabe2fac24e8b87689e447158a1e99d9"
+hash = "676ba4fac9b72fce01312f5289b29787a90bad80b4560f6adee2a1db756f2210"
 metafile = true
 
 [[files]]
@@ -2042,7 +2042,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "1c47d7c56d9b088ba12654820cf1470f88833188f2f63292eba6b9fc9047d184"
+hash = "387ac2c976305b4bfea9cb824c9341713bb618ebcc55202deb1d4177aec31883"
 metafile = true
 
 [[files]]
@@ -2062,7 +2062,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-forge.pw.toml"
-hash = "7bc0db226662cfe73e4d3eceb18f3af0083183e3c98bc258004ab8b0cc8f9b9c"
+hash = "c5ee949f250fd0fdfd84d14af90296bd11afb7ac4bba0c2a082da292b3b92007"
 metafile = true
 
 [[files]]
@@ -2157,7 +2157,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
-hash = "c099922d35787f4e8ec9f687fcae211b072975e5c1ccbf984544f529d45a70c9"
+hash = "4369621299ae3da1313607357a125cd1bebeb043dc9a448e5158668097e58e0c"
 metafile = true
 
 [[files]]
@@ -2172,7 +2172,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "823b602031e0c9d527eff5aeba73d129880af97de463a42a41b5bcae6d9c31fb"
+hash = "9b09528bf5ad4580823a0e00c7adcd161811831074984196d00038b085107469"
 metafile = true
 
 [[files]]
@@ -2187,7 +2187,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "3d227a42b3b9083d87953d9b609a1cb73b905a06bebad07d0180775c1ff0cbd4"
+hash = "c0f6e9bb99d9ce0677ae654a91624ee24e4646b208c092eba24ab8ba8de4d762"
 metafile = true
 
 [[files]]
@@ -2217,7 +2217,7 @@ metafile = true
 
 [[files]]
 file = "mods/strictly-origins.pw.toml"
-hash = "9520aea8f8b9e75899c0814332d7b8f82a66b88cbc3fa7005597350ef161c16c"
+hash = "5fd73dd4ec674b613353d8cfb3e1a0318bcecdce1d0a765beadcdd3c14d5195c"
 metafile = true
 
 [[files]]

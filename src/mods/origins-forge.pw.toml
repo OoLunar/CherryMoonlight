@@ -1,13 +1,13 @@
 name = "Origins (Forge)"
-filename = "origins-forge-1.19.2-1.7.1.5-all.jar"
+filename = "origins-forge-1.19.2-1.7.1.7-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jl3m2lR9/versions/MuqpqjNw/origins-forge-1.19.2-1.7.1.5-all.jar"
+url = "https://cdn.modrinth.com/data/jl3m2lR9/versions/zVTwpDoU/origins-forge-1.19.2-1.7.1.7-all.jar"
 hash-format = "sha1"
-hash = "bdf3084d13c8f1d4a08a6389bdb2bb4ce6bc3f99"
+hash = "d076b1d789ee699c21b8f6ae702acdc3fc3f5e52"
 
 [update]
 [update.modrinth]
 mod-id = "jl3m2lR9"
-version = "MuqpqjNw"
+version = "zVTwpDoU"
