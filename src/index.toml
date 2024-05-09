@@ -1686,11 +1686,6 @@ hash = "00ff485e06a4f0aa662811fd5eb8969650ca16ed31cf0c869c6ccbe2edd352a0"
 metafile = true
 
 [[files]]
-file = "mods/create-structures.pw.toml"
-hash = "e427c13317e4be2a5e404a732282c3df15d1cd3c2db37a8e56b5026cbb98ab70"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "9e8d09c69fad6e8d47179dacbefb0a0dd8fa69a829ec12ecf6834c6a3ae855d7"
 metafile = true
@@ -2198,11 +2193,6 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "d42a4342778c40d0f1ba9cc3a31ed4834bbaf6dc93aa94f5606f9cad106db1c9"
-metafile = true
-
-[[files]]
-file = "mods/spawn-animations.pw.toml"
-hash = "61e88480a7df95b00cae33f2dec5eadadd96ba4d68e2536ca036584495961a4f"
 metafile = true
 
 [[files]]
