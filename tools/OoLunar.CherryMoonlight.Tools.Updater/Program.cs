@@ -384,16 +384,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             // Write the changelog to disk
-            FileStream fileStream = File.Open(Path.Join(ThisAssembly.Project.ProjectRoot, CHANGELOG_FILE_NAME), new FileStreamOptions()
-            {
-                Access = FileAccess.ReadWrite,
-                Mode = FileMode.Create,
-                Options = FileOptions.WriteThrough | FileOptions.Asynchronous,
-                Share = FileShare.None
-            });
-
-            await fileStream.WriteAsync(Encoding.UTF8.GetBytes(stringBuilder.ToString()));
-            await fileStream.DisposeAsync();
+            await File.WriteAllTextAsync(Path.Join(ThisAssembly.Project.ProjectRoot, CHANGELOG_FILE_NAME), stringBuilder.ToString());
 
             // Bump the modpack version
             if (changelog.OldModpackVersion == changelog.NewModpackVersion)
