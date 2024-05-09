@@ -3,11 +3,11 @@ filename = "origins-accessbilities-1.19.2-1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/O5i3hY4L/versions/zgYGPizE/origins-accessbilities-1.19.2-1.1.1.jar"
 hash-format = "sha1"
 hash = "e998599532e7d48ed281f733dc019052966c3945"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "O5i3hY4L"
-version = "zgYGPizE"
+[update.curseforge]
+file-id = 3954394
+project-id = 664597

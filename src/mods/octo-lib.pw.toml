@@ -3,11 +3,11 @@ filename = "octolib-1.19.2-0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/RH2KUdKJ/versions/NiQBlfBa/octolib-1.19.2-0.3.jar"
 hash-format = "sha1"
 hash = "d3bb0c6b02743d2a75165ef7da19390e97338dbb"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "RH2KUdKJ"
-version = "NiQBlfBa"
+[update.curseforge]
+file-id = 5175975
+project-id = 916747

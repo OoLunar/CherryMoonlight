@@ -1,13 +1,13 @@
 name = "Connectedness"
 filename = "connectedness-2.0.1a.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ceiPqFmI/versions/r4SIDnDr/connectedness-2.0.1a.jar"
 hash-format = "sha1"
 hash = "e743e9cb852eef33762ac3f0ed934e1fce4c11d4"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "ceiPqFmI"
-version = "r4SIDnDr"
+[update.curseforge]
+file-id = 4506203
+project-id = 853916

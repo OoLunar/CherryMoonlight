@@ -1,13 +1,13 @@
-name = "Pick Up Notifier"
+name = "Pick Up Notifier [Forge & Fabric]"
 filename = "PickUpNotifier-v4.2.4-1.19.2-Forge.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZX66K16c/versions/vqctzfrm/PickUpNotifier-v4.2.4-1.19.2-Forge.jar"
 hash-format = "sha1"
 hash = "d539afd6713da2dcef897a8f872fb795b1eaf335"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "ZX66K16c"
-version = "vqctzfrm"
+[update.curseforge]
+file-id = 4401357
+project-id = 351441

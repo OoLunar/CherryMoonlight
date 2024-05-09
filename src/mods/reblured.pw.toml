@@ -1,13 +1,13 @@
 name = "ReBlured"
 filename = "Reblured-1.19.1-1.2.0.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/s4G3ZCcv/versions/4OPjCRWi/Reblured-1.19.1-1.2.0.jar"
 hash-format = "sha1"
 hash = "5ed4f8be4419f891b8d57347a64dd3a7e3b3505e"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "s4G3ZCcv"
-version = "4OPjCRWi"
+[update.curseforge]
+file-id = 3953081
+project-id = 637729

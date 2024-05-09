@@ -1,13 +1,13 @@
 name = "Forgeshot"
 filename = "forgeshot-1.0.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3j0bB3uL/versions/4mHtKPuw/forgeshot-1.0.jar"
 hash-format = "sha1"
 hash = "d7989dce08ee7084b21ae8736e2d4513e918514d"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "3j0bB3uL"
-version = "4mHtKPuw"
+[update.curseforge]
+file-id = 4746004
+project-id = 911710

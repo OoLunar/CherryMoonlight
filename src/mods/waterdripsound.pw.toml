@@ -1,13 +1,13 @@
 name = "Drip Sounds (Forge)"
 filename = "DripSounds-1.19-0.3.0.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XOhqdyTf/versions/1.19-0.3.0/DripSounds-1.19-0.3.0.jar"
 hash-format = "sha1"
 hash = "a730f6e211f068816f3637c188af73d5bec3a17f"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "XOhqdyTf"
-version = "eCCQqQQ8"
+[update.curseforge]
+file-id = 3922079
+project-id = 390986

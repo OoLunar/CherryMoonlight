@@ -1,13 +1,13 @@
-name = "[Let's Do] API"
-filename = "doapi-1.1.1_forge.jar"
+name = "[Let's Do] API "
+filename = "doapi-1.1.0b.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4XJZeZbM/versions/dRKpSLaj/doapi-1.1.1_forge.jar"
 hash-format = "sha1"
-hash = "082ca8aafc3d718c4afe18ac04a72df9de4871e0"
+hash = "3be69b24454d1af75d6b386825f5d50a5388732c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "4XJZeZbM"
-version = "dRKpSLaj"
+[update.curseforge]
+file-id = 4676882
+project-id = 864599

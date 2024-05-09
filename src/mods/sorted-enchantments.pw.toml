@@ -1,13 +1,13 @@
 name = "Sorted Enchantments"
 filename = "sorted_enchantments-1.0.0+1.19.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jmHEp0Dv/versions/Ic49Okgp/sorted_enchantments-1.0.0%2B1.19.jar"
 hash-format = "sha1"
 hash = "dd8be09f422c4888a85016463da704c1e3cf81fa"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "jmHEp0Dv"
-version = "Ic49Okgp"
+[update.curseforge]
+file-id = 5104750
+project-id = 974256

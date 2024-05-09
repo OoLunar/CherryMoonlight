@@ -3,11 +3,11 @@ filename = "multibeds-forge-1.19-1.10.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JyytxgF6/versions/GUjVyI3z/multibeds-forge-1.19-1.10.8.jar"
 hash-format = "sha1"
 hash = "007ecc375d4e85ca9999322daab92f894e0c2f71"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "JyytxgF6"
-version = "GUjVyI3z"
+[update.curseforge]
+file-id = 5294696
+project-id = 244858

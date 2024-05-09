@@ -1,13 +1,13 @@
-name = "Rings of Ascension"
+name = "Rings of Ascension (Forge/NeoForge)"
 filename = "RingsOfAscension-1.19-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/IxxES3Kk/versions/pWIit22r/RingsOfAscension-1.19-1.0.1.jar"
 hash-format = "sha1"
 hash = "8a0332b62abe78cd5a2353ddc132823a530089df"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "IxxES3Kk"
-version = "pWIit22r"
+[update.curseforge]
+file-id = 3886243
+project-id = 379208

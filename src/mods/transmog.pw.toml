@@ -3,11 +3,11 @@ filename = "transmog-forge-1.2.2+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Th33t82F/versions/kEVK2G9s/transmog-forge-1.2.2%2B1.19.2.jar"
 hash-format = "sha1"
 hash = "181c4839816d55e04fa2db52157d81a5bb89e19f"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "Th33t82F"
-version = "kEVK2G9s"
+[update.curseforge]
+file-id = 4522569
+project-id = 848032
