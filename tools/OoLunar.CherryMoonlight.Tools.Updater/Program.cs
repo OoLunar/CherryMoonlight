@@ -386,7 +386,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             // Write the changelog to disk
             FileStream fileStream = File.Open(Path.Join(ThisAssembly.Project.ProjectRoot, CHANGELOG_FILE_NAME), new FileStreamOptions()
             {
-                Access = FileAccess.Read,
+                Access = FileAccess.ReadWrite,
                 Mode = FileMode.Create,
                 Options = FileOptions.WriteThrough | FileOptions.Asynchronous,
                 Share = FileShare.None
