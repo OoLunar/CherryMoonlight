@@ -1461,11 +1461,6 @@ file = "datapacks/Cisco Rpg Origins 1.0.2.zip"
 hash = "c463433f843b23b7d85d5f7111819a299a6df29ff230e7e4348ea0cec705da03"
 
 [[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "f26fb3ebc03df700a9af26fa5084b2034b1ce5ede156f5112aedb6a4e14162cb"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "945ceb14e94115ed5dcc77b0e7aed6340e034e4e07aa4ca2a542ac9d12827f5c"
 metafile = true
@@ -1566,11 +1561,6 @@ hash = "a88250ec382bd3aa224e11b803500a56d84b2c103f56834ef7ecb6eab938c24f"
 metafile = true
 
 [[files]]
-file = "mods/better-combat.pw.toml"
-hash = "00cb4565f09eb467ceb0d56f519196204c2486759963bb204c5e88559ed1ad6a"
-metafile = true
-
-[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "a89d2e789613f03a9e32ec9c42a2470afb66816c02c14e6acbc0f771ef318852"
 metafile = true
@@ -1591,18 +1581,8 @@ hash = "c8e7c5ac6a6ff113e87d004e59406a05d5571a85e17f0972b324f54f7b3f3ef2"
 metafile = true
 
 [[files]]
-file = "mods/biomesyougo.pw.toml"
-hash = "528ce92eb89388f7fded34dc577bdc8de55e348c2875624573fc5256d2cdbb8e"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "079bdd15fe839b3937ae6f75e421c9d72e170374497055858d7265100a50fd48"
-metafile = true
-
-[[files]]
-file = "mods/bookshelf-lib.pw.toml"
-hash = "3369ccf13cbc0d0b3ca896002a55c64f56fe4903868cce9156a6dad22e99a46c"
 metafile = true
 
 [[files]]
@@ -1658,11 +1638,6 @@ metafile = true
 [[files]]
 file = "mods/clear-despawn.pw.toml"
 hash = "6cbf50cb84ccea9409a102fd503e30b020bbd8d8a1759b9f98320f4d38e3b93d"
-metafile = true
-
-[[files]]
-file = "mods/cleardespawn.pw.toml"
-hash = "676398461e20797db092dcf468d65d21f34bacac30f7304d1c6e5e72739934e5"
 metafile = true
 
 [[files]]
@@ -1821,11 +1796,6 @@ hash = "b4a5624e4b8dd1c40c32de15c7bc01173ef938171f5d03c473dc1a73d8b109c7"
 metafile = true
 
 [[files]]
-file = "mods/endrem.pw.toml"
-hash = "e04bcd0d75d655998cd976406d1bc476239fb0c2f52d36a62686a48bba4b554f"
-metafile = true
-
-[[files]]
 file = "mods/endremastered.pw.toml"
 hash = "2a78b217e2d77077007723f87eef6ca2508bfa6ef32e421482a7fed30aee7580"
 metafile = true
@@ -1856,16 +1826,6 @@ hash = "0d5d331d36bb830010dc9b6117011b0df61b7c507249fd6d94da0fccfaff406e"
 metafile = true
 
 [[files]]
-file = "mods/fallingleavesforge.pw.toml"
-hash = "5c2eeb18cd38f190d0e9642bbce4d1c90ce721f92c952300f4a88e6e53896ba3"
-metafile = true
-
-[[files]]
-file = "mods/fantasy-furniture.pw.toml"
-hash = "058d0330f8d3ca2264ab1a2a798bb4be32d9622f5218ffe6ff62a554aeb1cd94"
-metafile = true
-
-[[files]]
 file = "mods/fantasys-furniture.pw.toml"
 hash = "9393c4c757844d2c81dbce37a85b5b88be73fa7b281a70c17c620361d659f788"
 metafile = true
@@ -1883,11 +1843,6 @@ metafile = true
 [[files]]
 file = "mods/fast-paintings.pw.toml"
 hash = "8d418b1a8c4b2e329f373d4cd57cf86c8c7493a422f6ffc80ef22051b41f05da"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "ed6f0207affbcdbc338b0af19a596451230a25255f425b3b4670a0104368c95c"
 metafile = true
 
 [[files]]
@@ -1961,11 +1916,6 @@ hash = "22267079d5b777a0d8da7ec58707613711689dbb2902502b996658ec1a14bd8a"
 metafile = true
 
 [[files]]
-file = "mods/just-zoom.pw.toml"
-hash = "ed9294e17b26a43a4740fc020b18863166894d08103e93290993c1344ea37620"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "657ae63e2d5f25867c9d179784eaae3b53ff5e1ba31533781b476c93becb5264"
 metafile = true
@@ -2011,11 +1961,6 @@ hash = "551e6f86aca2a357ffe859301d9740aa6690d5ceb2e1f91067a1cc6a6e600e39"
 metafile = true
 
 [[files]]
-file = "mods/make_bubbles_pop.pw.toml"
-hash = "37a9963c20d93d99f761b1e1db8be699bfd4e6a0ce7a34190a28bbd2a72d1f2d"
-metafile = true
-
-[[files]]
 file = "mods/meet-your-fight.pw.toml"
 hash = "60eda14c6a9f669aa8b744dc19906325d320e73d117dd9ae555cd102cefacfc0"
 metafile = true
@@ -2028,16 +1973,6 @@ metafile = true
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "9ebfa0f30ebd694ec8b0e8e8c90611ce4bff95bb86ad09afe4392e42ed5dd2d6"
-metafile = true
-
-[[files]]
-file = "mods/modelfix.pw.toml"
-hash = "5c19efce1c76b3426050bb3d56f22717cab123a9678859d909452683d088ff87"
-metafile = true
-
-[[files]]
-file = "mods/moonlight.pw.toml"
-hash = "b05ae9442445c67b00ba24f09e2489e12f963274b8dbe41bbfead61a5c9660dc"
 metafile = true
 
 [[files]]
@@ -2068,11 +2003,6 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "63800317329d340d3550b00dda4fecb2861cc6a643c2390d34f446c550ff9f06"
-metafile = true
-
-[[files]]
-file = "mods/nerb.pw.toml"
-hash = "bb1a457b04dd29a7624c40290376d6e5252d8eb6c7aa22214a06c318c027b9e7"
 metafile = true
 
 [[files]]
@@ -2398,11 +2328,6 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "f938bda35487d3d6713b17753818b3950fc36d0bd6872ce38f1545408e3972b6"
-metafile = true
-
-[[files]]
-file = "mods/yeetus-experimentus.pw.toml"
-hash = "b3d23826bc8dcea21e068ed4bef034e069420be4e502924b5df89af184afd88f"
 metafile = true
 
 [[files]]
