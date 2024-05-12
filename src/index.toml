@@ -1682,7 +1682,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "00ff485e06a4f0aa662811fd5eb8969650ca16ed31cf0c869c6ccbe2edd352a0"
+hash = "7ee6c41f62f29e58ceccf2b5333c13a671d2fe20ea508f5bb40a1734f86e33f3"
 metafile = true
 
 [[files]]
@@ -1742,7 +1742,7 @@ metafile = true
 
 [[files]]
 file = "mods/double-doors.pw.toml"
-hash = "fcfc7b3c31446f7080c309e11a4f1bb9de11fb3c6957adcdf5686996d0b7b1d8"
+hash = "855381cd08b917e117744f9c8cf6ea3e1c5057df68a038449315cf8d083adb62"
 metafile = true
 
 [[files]]
