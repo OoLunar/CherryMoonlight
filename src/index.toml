@@ -1497,7 +1497,7 @@ metafile = true
 
 [[files]]
 file = "mods/apothic-curios.pw.toml"
-hash = "0c1dae666796f5de889e00d4e3caf1ff4db376a6bc979732ed815c6a1b972ca0"
+hash = "2d9dcac2b86dd081e6ad770fb743c8cce25eb399cb2b47569fd08e936be3e0f4"
 metafile = true
 
 [[files]]
@@ -1622,7 +1622,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "32c3e7752f5e0767cd9df0e9d428097dd568425ea909510bd308c4d9dd8528e5"
+hash = "65df407587a46f59157c87f260e1b120fc28a1c100fda1e8da0eed665a259ac6"
 metafile = true
 
 [[files]]
