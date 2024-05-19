@@ -601,10 +601,6 @@ file = "config/byg/README.txt"
 hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
 
 [[files]]
-file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "91fa1355175a953bdaa28607d1c8a09d1d9f06415927d6184507eda0011ca850"
-
-[[files]]
 file = "config/byg/biomepedia.json5"
 hash = "8ef0cd2537acf9187204f7d9cbf94464d99eb3915cc92a293c3d3b64633c22f5"
 
@@ -1622,7 +1618,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "65df407587a46f59157c87f260e1b120fc28a1c100fda1e8da0eed665a259ac6"
+hash = "6e2be95f40cb285cf1283f5614739b5a2276465a47ac84c319b44f16abaf0e5d"
 metafile = true
 
 [[files]]
@@ -1872,7 +1868,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "dc0bda3f13716e927422676059634474c78351578a394357909ffd20ec33e5ec"
+hash = "c2923fc5048ce0be4072ac2b8269bf90b465ba76a8857a47cf2f3977a314f5cb"
 metafile = true
 
 [[files]]
