@@ -601,6 +601,10 @@ file = "config/byg/README.txt"
 hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
 
 [[files]]
+file = "config/byg/backups/last_working_configs_backup.zip"
+hash = "91fa1355175a953bdaa28607d1c8a09d1d9f06415927d6184507eda0011ca850"
+
+[[files]]
 file = "config/byg/biomepedia.json5"
 hash = "8ef0cd2537acf9187204f7d9cbf94464d99eb3915cc92a293c3d3b64633c22f5"
 
@@ -1674,6 +1678,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "b8e2a988b143955d7ea3c6514e1d70f5d616bf50e3ac9f2c5f7493daa5e4629c"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
 metafile = true
 
 [[files]]
