@@ -1,13 +1,13 @@
 name = "NetherPortalFix"
-filename = "netherportalfix-forge-1.19-10.0.2.jar"
-side = "server"
+filename = "netherportalfix-forge-1.19-10.0.1.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nPZr02ET/versions/WJBCsJlq/netherportalfix-forge-1.19-10.0.2.jar"
 hash-format = "sha1"
-hash = "6d1c4f4b54fa23f9af3228943a3582822290dac9"
+hash = "56f4cecf220a965d50dc96c26d0fb4563ecaf6f4"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "nPZr02ET"
-version = "WJBCsJlq"
+[update.curseforge]
+file-id = 4412699
+project-id = 241160

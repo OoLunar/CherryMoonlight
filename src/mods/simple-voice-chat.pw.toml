@@ -3,11 +3,11 @@ filename = "voicechat-forge-1.19.2-2.5.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/e04nS5Qz/voicechat-forge-1.19.2-2.5.14.jar"
 hash-format = "sha1"
-hash = "ef03a773ba94c7c18e62afcdec93da209f586567"
+hash = "a9c05d8f64185f7aa4f60297cde160c7a62d8eda"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "9eGKb6K1"
-version = "e04nS5Qz"
+[update.curseforge]
+file-id = 5329133
+project-id = 416089
