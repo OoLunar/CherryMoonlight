@@ -3,11 +3,11 @@ filename = "TexelsPaintings-forge-1.19.2-6.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jHEuagUU/versions/TvENAYUC/TexelsPaintings-forge-1.19.2-6.2.0.jar"
 hash-format = "sha1"
-hash = "315b5e7b80420cc749feadd4cee42f9305557c3f"
+hash = "070f4729069ec0ec33641a3a8f701751d9879b7a"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "jHEuagUU"
-version = "TvENAYUC"
+[update.curseforge]
+file-id = 4510021
+project-id = 749675

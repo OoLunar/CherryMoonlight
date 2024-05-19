@@ -1552,7 +1552,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "117028aee504fb12600efb5bff26e8a3ee13d472ebe7e209ee122112b98fdb8e"
+hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
 metafile = true
 
 [[files]]
@@ -1727,7 +1727,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "cffcf234e2e1c4d17635471bba6da79a99837f6755e9cc8201b22abff447a0fb"
+hash = "3c3db423d76d506a075a7b55a33b7bed658141002de9edc337ed496b1620d857"
 metafile = true
 
 [[files]]
@@ -1853,6 +1853,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
+metafile = true
+
+[[files]]
+file = "mods/great-scrollable-tooltips.pw.toml"
+hash = "e93889217207e954397b78960476be4809e4cff5080f8521613b414c8eed2c30"
 metafile = true
 
 [[files]]
@@ -2237,7 +2242,7 @@ metafile = true
 
 [[files]]
 file = "mods/texels-paintings.pw.toml"
-hash = "5e60d5a373116cfb333014c36eaf0c2db14948d16d2afc7f7043adfa70e98dbb"
+hash = "5b258d5044c79884c878387f797248a5e63bc7b0f1ae35500641a2318ee123ea"
 metafile = true
 
 [[files]]
