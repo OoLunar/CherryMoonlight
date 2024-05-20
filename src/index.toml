@@ -2177,6 +2177,11 @@ hash = "b7d3067486eeaa756c8c9f0cd26ac951b374dfc1d9548ee84932a315aaa6ee7a"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "9ef36a8e28e4edd0f385e8da76ee371a95d63076957d1d89190413221a734149"
+metafile = true
+
+[[files]]
 file = "mods/slimyboyos.pw.toml"
 hash = "43dfaf59a80d9cb03e4eb86203ee7d8d0831daf8433dc1e78d07d788bf86ec7f"
 metafile = true
