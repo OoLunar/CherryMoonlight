@@ -845,10 +845,6 @@ file = "config/delightful-common.toml"
 hash = "c961c89196bd12ddb95273ad52f1fc01879d5e53bb4c7f315ba7b7b94bf46232"
 
 [[files]]
-file = "config/dreamland-common.toml"
-hash = "95388f06e1bdc7addb908ffc5993139bb5bcc9075ed702862d10cb1661e19881"
-
-[[files]]
 file = "config/dungeons_enhanced-common.toml"
 hash = "331004e5f9267c44794fe366bbab96cd4a5c95262a2669d173a66b18ba3bba02"
 
@@ -1234,7 +1230,7 @@ hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "58a9aab2d9f16be9269f61c058b7196eb3468ff9ba41cdbf8da431360484f12c"
+hash = "95e7b86e9fbbe28a7751dc3f21c50f12f8b41a75ca6b177093f5f890af305a70"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -2173,7 +2169,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "0fd3bbfdd33c5bf2cf7fbf70dc47623e82cf98b12ebf5340cbdbaaa787bb7a49"
+hash = "53b970b4755f0fa00f00f8a6bb3b81e303deeeff2831f933c5818ab57feb4ee8"
 metafile = true
 
 [[files]]
