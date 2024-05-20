@@ -59,77 +59,46 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             // Change current directory to the src folder
             Directory.SetCurrentDirectory(Path.Combine(ThisAssembly.Project.ProjectRoot, "src"));
 
-            // See if the repo is dirty
-            string latestCommit;
-            bool stashed = false;
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "status --porcelain", logger);
+            // Fetch the latest remote commits
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "fetch --all --tags", logger);
             if (exitCode != 0)
             {
-                logger.Error("Failed to check git status: {Output}", output);
+                logger.Error("Failed to fetch latest commit: {Output}", output);
                 return exitCode;
             }
-            else if (output.Length > 0)
+
+            // Get latest tag
+            (string latestTag, exitCode) = await ExecuteProgramAsync(GitBinary, "describe --tags --abbrev=0", logger);
+            if (string.IsNullOrWhiteSpace(latestTag) || exitCode != 0)
             {
-                logger.Warning("Uncommitted changes detected, comparing against the current state of the repository.");
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "rev-parse HEAD", logger);
-                if (exitCode != 0)
-                {
-                    logger.Error("Failed to get the latest commit: {Output}", output);
-                    return exitCode;
-                }
-
-                latestCommit = output.Trim();
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "stash", logger);
-                if (exitCode != 0)
-                {
-                    logger.Error("Failed to stash changes: {Output}", output);
-                    return exitCode;
-                }
-
-                stashed = true;
-            }
-            else
-            {
-                // Fetch the latest remote commits
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "fetch --all --tags", logger);
-                if (exitCode != 0)
-                {
-                    logger.Error("Failed to fetch latest commit: {Output}", output);
-                    return exitCode;
-                }
-
-                // Get the current branch
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "branch --show-current", logger);
-                if (exitCode != 0)
-                {
-                    logger.Error("Failed to get the current branch: {Output}", output);
-                    return exitCode;
-                }
-
-                latestCommit = output.Trim();
+                logger.Error("Failed to get the latest tag: {Output}", latestTag);
+                return exitCode;
             }
 
-            // Parse the current state of the modpack
-            Version modpackVersion = await GrabModpackVersionAsync(logger);
+            // Try to get the previous tag
+            (string previousTag, exitCode) = await ExecuteProgramAsync(GitBinary, $"describe --tags --abbrev=0 --exclude={latestTag}", logger);
+            if (string.IsNullOrWhiteSpace(previousTag) || exitCode != 0)
+            {
+                logger.Error("Failed to get the latest tag: {Output}", previousTag);
+                return exitCode;
+            }
+
+            // Parse the old state of the modpack
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {previousTag} .", logger);
+            if (exitCode != 0)
+            {
+                logger.Error("Failed to checkout previous tag: {Output}", output);
+                return exitCode;
+            }
+
             IReadOnlyList<PackwizEntry> oldEntries = await GrabPackwizEntriesAsync(logger);
 
-            // Checkout the latest commit
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestCommit}", logger);
+            // Parse the new state of the modpack
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
             if (exitCode != 0)
             {
-                logger.Error("Failed to checkout latest commit: {Output}", output);
+                logger.Error("Failed to checkout latest tag: {Output}", output);
                 return exitCode;
-            }
-
-            if (stashed)
-            {
-                // Pop the stash
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, "stash pop", logger);
-                if (exitCode != 0)
-                {
-                    logger.Error("Failed to pop the stash: {Output}", output);
-                    return exitCode;
-                }
             }
 
             // Update the modpack
@@ -141,6 +110,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             // Parse the new state of the modpack
+            Version modpackVersion = await GrabModpackVersionAsync(logger);
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
             // Print the changelog to console and update the modpack version

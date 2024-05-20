@@ -845,6 +845,10 @@ file = "config/delightful-common.toml"
 hash = "c961c89196bd12ddb95273ad52f1fc01879d5e53bb4c7f315ba7b7b94bf46232"
 
 [[files]]
+file = "config/dreamland-common.toml"
+hash = "95388f06e1bdc7addb908ffc5993139bb5bcc9075ed702862d10cb1661e19881"
+
+[[files]]
 file = "config/dungeons_enhanced-common.toml"
 hash = "331004e5f9267c44794fe366bbab96cd4a5c95262a2669d173a66b18ba3bba02"
 

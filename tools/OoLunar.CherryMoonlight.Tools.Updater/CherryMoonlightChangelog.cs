@@ -23,8 +23,8 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             Before = before;
             After = after;
             OldModpackVersion = currentModpackVersion;
-            NewMods = before.Where(oldEntry => !after.Any(newEntry => newEntry.Name == oldEntry.Name)).ToList();
-            RemovedMods = after.Where(newEntry => !before.Any(oldEntry => oldEntry.Name == newEntry.Name)).ToList();
+            RemovedMods = before.Where(oldEntry => !after.Any(newEntry => newEntry.Name == oldEntry.Name)).ToList();
+            NewMods = after.Where(newEntry => !before.Any(oldEntry => oldEntry.Name == newEntry.Name)).ToList();
 
             bool minorBump = NewMods.Count > 0 || RemovedMods.Count > 0;
             bool patchBump = false;
