@@ -1947,6 +1947,11 @@ hash = "75db5a82c47c470b5f7483ef8008073616ebe218672d9fb60242de5788c6d764"
 metafile = true
 
 [[files]]
+file = "mods/lil-wings.pw.toml"
+hash = "f0b4fcf820a8558f57c62aced5b70afda8bc49803838696d6584125260c63905"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "19648392fc85169b938ace6d0d1cfd91c182d69f346c20933c12a597dd91a004"
 metafile = true
