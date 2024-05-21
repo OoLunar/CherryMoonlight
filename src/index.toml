@@ -1503,6 +1503,11 @@ hash = "3bea0442d74ad9116aa556afd0b84b54ecfd9504af3dabd914c829728082a34c"
 metafile = true
 
 [[files]]
+file = "mods/armor-visibility.pw.toml"
+hash = "9dd94499de6c706128adc5de10416549c1fc6dadd1c2fff57d39155b874e8ff7"
+metafile = true
+
+[[files]]
 file = "mods/ars-elemental.pw.toml"
 hash = "5d86bcaf1ee621abef8f5169485e2647e2f0fb0c9c5fb90b1fd8b359e57f3382"
 metafile = true
