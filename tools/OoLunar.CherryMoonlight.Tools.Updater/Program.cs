@@ -75,27 +75,19 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 return exitCode;
             }
 
-            // Get latest tag
-            (string latestTag, exitCode) = await ExecuteProgramAsync(GitBinary, "describe --tags --abbrev=0", logger);
+            // Try to get the previous tag
+            (string latestTag, exitCode) = await ExecuteProgramAsync(GitBinary, $"describe --tags --abbrev=0", logger);
             if (string.IsNullOrWhiteSpace(latestTag) || exitCode != 0)
             {
                 logger.Error("Failed to get the latest tag: {Output}", latestTag);
                 return exitCode;
             }
 
-            // Try to get the previous tag
-            (string previousTag, exitCode) = await ExecuteProgramAsync(GitBinary, $"describe --tags --abbrev=0 --exclude={latestTag}", logger);
-            if (string.IsNullOrWhiteSpace(previousTag) || exitCode != 0)
-            {
-                logger.Error("Failed to get the latest tag: {Output}", previousTag);
-                return exitCode;
-            }
-
             // Parse the old state of the modpack
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {previousTag} .", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
             if (exitCode != 0)
             {
-                logger.Error("Failed to checkout previous tag: {Output}", output);
+                logger.Error("Failed to checkout latest tag: {Output}", output);
                 return exitCode;
             }
 
