@@ -845,10 +845,6 @@ file = "config/delightful-common.toml"
 hash = "c961c89196bd12ddb95273ad52f1fc01879d5e53bb4c7f315ba7b7b94bf46232"
 
 [[files]]
-file = "config/dreamland-common.toml"
-hash = "95388f06e1bdc7addb908ffc5993139bb5bcc9075ed702862d10cb1661e19881"
-
-[[files]]
 file = "config/dungeons_enhanced-common.toml"
 hash = "331004e5f9267c44794fe366bbab96cd4a5c95262a2669d173a66b18ba3bba02"
 
@@ -1507,11 +1503,6 @@ hash = "3bea0442d74ad9116aa556afd0b84b54ecfd9504af3dabd914c829728082a34c"
 metafile = true
 
 [[files]]
-file = "mods/armor-visibility.pw.toml"
-hash = "9dd94499de6c706128adc5de10416549c1fc6dadd1c2fff57d39155b874e8ff7"
-metafile = true
-
-[[files]]
 file = "mods/ars-elemental.pw.toml"
 hash = "5d86bcaf1ee621abef8f5169485e2647e2f0fb0c9c5fb90b1fd8b359e57f3382"
 metafile = true
@@ -1679,6 +1670,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "b8e2a988b143955d7ea3c6514e1d70f5d616bf50e3ac9f2c5f7493daa5e4629c"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "c98b92c96eb546872a0d203969ddba29a17f6ab0e57ff93081d81a138562e8b7"
 metafile = true
 
 [[files]]
