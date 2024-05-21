@@ -1642,6 +1642,11 @@ hash = "620351b6440c5a97a7ea574f4bba4f1f83b84ce2f908fe31a116406e35fa6c57"
 metafile = true
 
 [[files]]
+file = "mods/cluttered.pw.toml"
+hash = "a5f6c899990965a62c6236084eac0e1fc0cd93a5afb446cd4454f1ab62308e76"
+metafile = true
+
+[[files]]
 file = "mods/collection-of-singiro.pw.toml"
 hash = "0e9d3964d87a49c1acec5d656efc0a917c6820012efc9cf6ca923ec05b98d6db"
 metafile = true
@@ -1734,6 +1739,11 @@ metafile = true
 [[files]]
 file = "mods/delightful.pw.toml"
 hash = "a755d072163628ead956fa2bc96b6e6d7902f4d0a3a08cf6a71d0f6ff77c091f"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "469904d37b095f816ea047150be344d5a590728f8710d7b34d187f8017ad04f6"
 metafile = true
 
 [[files]]
@@ -1844,6 +1854,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
+metafile = true
+
+[[files]]
+file = "mods/forgematica.pw.toml"
+hash = "38631853e85168a278b22752dde9188816af998dacbd6eccc1ee144ba32b6ea3"
 metafile = true
 
 [[files]]
@@ -1959,6 +1974,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-paintings.pw.toml"
 hash = "02fa65ec589a8708c8ece47393c4411c188bf7b03b9dca7c2e092661ec3efa0a"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "aab3c075129b25e2d76011cbbc0e901251992e9d83904ed56cb50e68508ab20b"
 metafile = true
 
 [[files]]
