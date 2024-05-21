@@ -67,6 +67,14 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 return exitCode;
             }
 
+            // Grab the latest commit here instead of when we're checked out on a previous tag
+            (string latestCommit, exitCode) = await ExecuteProgramAsync(GitBinary, "rev-parse HEAD", logger);
+            if (string.IsNullOrWhiteSpace(latestCommit) || exitCode != 0)
+            {
+                logger.Error("Failed to get the latest commit: {Output}", latestCommit);
+                return exitCode;
+            }
+
             // Get latest tag
             (string latestTag, exitCode) = await ExecuteProgramAsync(GitBinary, "describe --tags --abbrev=0", logger);
             if (string.IsNullOrWhiteSpace(latestTag) || exitCode != 0)
@@ -94,11 +102,17 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             IReadOnlyList<PackwizEntry> oldEntries = await GrabPackwizEntriesAsync(logger);
 
             // Parse the new state of the modpack
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestCommit} .", logger);
             if (exitCode != 0)
             {
-                logger.Error("Failed to checkout latest tag: {Output}", output);
-                return exitCode;
+                // Try checking out the latest tag instead
+                logger.Warning("Checking out latest tag due to failure to checkout latest commit: {Output}", output);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
+                if (exitCode != 0)
+                {
+                    logger.Error("Failed to checkout latest tag: {Output}", output);
+                    return exitCode;
+                }
             }
 
             // Update the modpack
