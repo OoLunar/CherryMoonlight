@@ -24,6 +24,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@main
+        with:
+          fetch-depth: 0
       - name: Install .NET
         uses: actions/setup-dotnet@main
       - name: Update The Modpack
