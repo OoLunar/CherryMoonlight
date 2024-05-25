@@ -1463,6 +1463,11 @@ hash = "e8da28fb5b827f363fac2891d3a9b4ff3c0a071a88fb7a808691d1692ca33359"
 metafile = true
 
 [[files]]
+file = "mods/aether-enhanced-extinguishing.pw.toml"
+hash = "65e6e1704111442a8f88de28b8567a4176fb3db218204084e0401381cb58cf45"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cd6762b917231c39da01962cf328a04286180bec42e15016701eb0e37ae6652a"
 metafile = true
@@ -1573,6 +1578,11 @@ hash = "c8e7c5ac6a6ff113e87d004e59406a05d5571a85e17f0972b324f54f7b3f3ef2"
 metafile = true
 
 [[files]]
+file = "mods/blueflame.pw.toml"
+hash = "af6828cf0c69a6d61a622270f67d6a9eefc6b8afaac0d89874c7a9abf7b538c3"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "079bdd15fe839b3937ae6f75e421c9d72e170374497055858d7265100a50fd48"
 metafile = true
@@ -1635,6 +1645,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "620351b6440c5a97a7ea574f4bba4f1f83b84ce2f908fe31a116406e35fa6c57"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "5880c81df1af395ec3762eff4e98c78f7b75e62db67e1d191a1772d79aabc073"
 metafile = true
 
 [[files]]
@@ -1740,11 +1755,6 @@ metafile = true
 [[files]]
 file = "mods/delightful.pw.toml"
 hash = "a755d072163628ead956fa2bc96b6e6d7902f4d0a3a08cf6a71d0f6ff77c091f"
-metafile = true
-
-[[files]]
-file = "mods/do-a-barrel-roll.pw.toml"
-hash = "469904d37b095f816ea047150be344d5a590728f8710d7b34d187f8017ad04f6"
 metafile = true
 
 [[files]]
@@ -1858,6 +1868,11 @@ hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
 metafile = true
 
 [[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "807971d207f593d747063f389dd3809b8b82c2aa1e572e87180ab694e67e44de"
+metafile = true
+
+[[files]]
 file = "mods/forgematica.pw.toml"
 hash = "38631853e85168a278b22752dde9188816af998dacbd6eccc1ee144ba32b6ea3"
 metafile = true
@@ -1928,8 +1943,18 @@ hash = "e0581e9e0997c120db5f3e08b760e4258220284dbfbeb94a237ee6bbab4b277e"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-professions-jep.pw.toml"
+hash = "413806f003b9c9b62f701d97aaf128534618d25c3fda27505e1543b44fe20f79"
+metafile = true
+
+[[files]]
 file = "mods/just-zoom-forge.pw.toml"
 hash = "22267079d5b777a0d8da7ec58707613711689dbb2902502b996658ec1a14bd8a"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "6517474abbb8d3e86845c4f26998042c08b21267b26b3b6b622716187762c6a4"
 metafile = true
 
 [[files]]
@@ -2213,6 +2238,11 @@ hash = "43dfaf59a80d9cb03e4eb86203ee7d8d0831daf8433dc1e78d07d788bf86ec7f"
 metafile = true
 
 [[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "5c87f10b39dddb83d98bd59b6ee7368d483c5a10b61d2f1ec834cc5a13d03e25"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "d02bc31ff9b7c11b645162ca5af171b3844eb76f76522ce9986884019070f510"
 metafile = true
@@ -2315,6 +2345,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "20715dfbf9bcbe046340aa01d4a72e25f357be4442b7f5e36200976140671399"
+metafile = true
+
+[[files]]
+file = "mods/twilights-flavors-delight.pw.toml"
+hash = "39198b6b9022e2842aedb25c8c3ce3fe2b082f1af45933aa81bfb946b88c3d6a"
 metafile = true
 
 [[files]]
