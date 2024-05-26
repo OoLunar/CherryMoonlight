@@ -1649,7 +1649,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "54109a478528cb2c38af8f77eddc4cb6a5beac479310819a8ff14f175ba6445d"
+hash = "84f9ab0b2d1ab7b1fd19559030bcf71bd8e67bad73e92fb6f7dd9e7c37621fa8"
 metafile = true
 
 [[files]]
@@ -1979,7 +1979,7 @@ metafile = true
 
 [[files]]
 file = "mods/mafglib.pw.toml"
-hash = "aab3c075129b25e2d76011cbbc0e901251992e9d83904ed56cb50e68508ab20b"
+hash = "a663232f953d1bc5988da7a0c3f908aa6fa523b0ea7abfb080942a2c00abcebd"
 metafile = true
 
 [[files]]
@@ -2199,7 +2199,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "b7d3067486eeaa756c8c9f0cd26ac951b374dfc1d9548ee84932a315aaa6ee7a"
+hash = "74d1e4ae1792c4f6d9acf984936222f845d11f71da8df3943440a5aec108a4d5"
 metafile = true
 
 [[files]]
@@ -2229,7 +2229,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "f99a8984fa31d8162a5c6a133f490ec69b6928e6899f6b0dd923740ac28d8806"
+hash = "d4d4f78b35a88526ca8ac4396487eedf7709974c45ac13eb124b551974892b8a"
 metafile = true
 
 [[files]]
