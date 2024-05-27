@@ -1758,6 +1758,11 @@ hash = "a755d072163628ead956fa2bc96b6e6d7902f4d0a3a08cf6a71d0f6ff77c091f"
 metafile = true
 
 [[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "469904d37b095f816ea047150be344d5a590728f8710d7b34d187f8017ad04f6"
+metafile = true
+
+[[files]]
 file = "mods/do-api.pw.toml"
 hash = "8e9b328fedeade590af9cbf1f945fa2e8f2d5764fff3e76ce7b45ff3b7ae9e25"
 metafile = true
@@ -2259,7 +2264,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "d4d4f78b35a88526ca8ac4396487eedf7709974c45ac13eb124b551974892b8a"
+hash = "398f4bd5648b4f304d863dfa69a8923441ba17306f4149ab47fb805bc5fde840"
 metafile = true
 
 [[files]]
