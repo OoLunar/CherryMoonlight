@@ -1,13 +1,13 @@
 name = "Forgematica"
-filename = "Forgematica-0.1.7-mc1.19.2.jar"
+filename = "Forgematica-0.1.9-mc1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "023ef17f5e5e779713be7c17edc82e92d66a40a7"
+hash = "67b5760ca3f1b5b25522cbe9911c8cb04908ca8f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5064648
+file-id = 5381680
 project-id = 912441
