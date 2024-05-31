@@ -1538,6 +1538,11 @@ hash = "71ac69abb3b7e06485b7982f7ef9fef9a3e50016fbf9d4dc9536e8670360d579"
 metafile = true
 
 [[files]]
+file = "mods/autoreglib.pw.toml"
+hash = "93e1dd0ac54ad216cf4ee82e5ab12a7de23d7cdfe7a27eb0b0c168a1c939db4a"
+metafile = true
+
+[[files]]
 file = "mods/awesome-dungeon-nether-forge.pw.toml"
 hash = "4fd568e066820d66288373bbbac41c0153814f43cae366bc319f6578f81f1afc"
 metafile = true
@@ -2168,6 +2173,11 @@ hash = "4792b5508f6583035d60a5d681d1f05bb52acef432fb47f132bcfb1b53d518f6"
 metafile = true
 
 [[files]]
+file = "mods/quark.pw.toml"
+hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
+metafile = true
+
+[[files]]
 file = "mods/reblured.pw.toml"
 hash = "27de082ec1cc3eecd3bd0cc742d86b2df07c0914151e11f73ae75aa18032571b"
 metafile = true
@@ -2363,6 +2373,11 @@ hash = "4bf851aef5dd2933ebd07ee81680521ea3690fa5e6bf37f3ce0bff40ebdbab38"
 metafile = true
 
 [[files]]
+file = "mods/vanillatweaks.pw.toml"
+hash = "0a7770041eab6a4d2a9e27438576fb0abb212b218445bb1c5ae955b288c8d673"
+metafile = true
+
+[[files]]
 file = "mods/wabi-sabi-structures-forge.pw.toml"
 hash = "e0b5ce05e1aac7b2882342f9076d3b9adac969c902d5bd546b0708dcb9a01b43"
 metafile = true
@@ -2453,13 +2468,12 @@ hash = "20222a2e823e88c1732d6b346478738fd0518f15c211de8c0ff82fbec8dbfd4d"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "2f22b3ef24cac4bc38598f789a80d7581f2a8804c6d75621f1c6f37d64c4713b"
-metafile = true
+file = "resourcepacks/VanillaTweaks_r222470.zip"
+hash = "bca190eec210b7c0e2f38d75ff83c4789faab1c6d1f63cd3f73c180485c4075d"
 
 [[files]]
-file = "resourcepacks/no-z-fighting.pw.toml"
-hash = "121c5d2c2a2b051a5c90c90c3d6ba9d429bb2c4136fd32c2de154f0069ba3f0e"
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "2f22b3ef24cac4bc38598f789a80d7581f2a8804c6d75621f1c6f37d64c4713b"
 metafile = true
 
 [[files]]
