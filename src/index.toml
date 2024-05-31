@@ -1664,7 +1664,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "84f9ab0b2d1ab7b1fd19559030bcf71bd8e67bad73e92fb6f7dd9e7c37621fa8"
+hash = "01cfdc98d1402bec4c99c8b4a854876a23d197906c5f00989d3a3e13fdddd90e"
 metafile = true
 
 [[files]]
@@ -1999,7 +1999,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "19648392fc85169b938ace6d0d1cfd91c182d69f346c20933c12a597dd91a004"
+hash = "8aea5cb3f20c40711a36a9a25cc58b3ff5315eea9ff3995bd522acab40a18511"
 metafile = true
 
 [[files]]
