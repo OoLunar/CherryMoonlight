@@ -10,6 +10,7 @@
 		"strictly:night_hunter" = true
 		"origins:carnivore" = true
 		"strictly:water_weary" = true
+		"strictly:nocturnal_eyes1" = true
 
 	[origins."origins-classes:warrior"]
 		enabled = true

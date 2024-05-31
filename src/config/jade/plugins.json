@@ -49,6 +49,11 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "delightful": {
     "crop_progress": true
   },
@@ -70,5 +75,8 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "multibeds": {
+    "hud": true
   }
 }

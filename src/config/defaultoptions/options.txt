@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/NoZ-Fighting-v1.2.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","builtin/default_ctm_resources","builtin/glass_pane_fix_resources","file/FreshAnimations_v1.8.zip","file/VanillaTweaks_r222470.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/VanillaTweaks_r222470.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
