@@ -1914,7 +1914,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "c2923fc5048ce0be4072ac2b8269bf90b465ba76a8857a47cf2f3977a314f5cb"
+hash = "5b89bdd7ddd35f4cf46a4d88fd0b9f61bf64a5d237339a5db3f7eadd6f4ed0a9"
 metafile = true
 
 [[files]]
@@ -2373,11 +2373,6 @@ hash = "4bf851aef5dd2933ebd07ee81680521ea3690fa5e6bf37f3ce0bff40ebdbab38"
 metafile = true
 
 [[files]]
-file = "mods/vanillatweaks.pw.toml"
-hash = "0a7770041eab6a4d2a9e27438576fb0abb212b218445bb1c5ae955b288c8d673"
-metafile = true
-
-[[files]]
 file = "mods/wabi-sabi-structures-forge.pw.toml"
 hash = "e0b5ce05e1aac7b2882342f9076d3b9adac969c902d5bd546b0708dcb9a01b43"
 metafile = true
@@ -2469,7 +2464,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_r222470.zip"
-hash = "bca190eec210b7c0e2f38d75ff83c4789faab1c6d1f63cd3f73c180485c4075d"
+hash = "a79570c9e228ade724c853f341d257a26d09e815dc04364eb42377d615fb3309"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
@@ -2479,4 +2474,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/origins-expanded-foods.pw.toml"
 hash = "ace22a141a315d2d0cbf173dc5b85396c69bf276a9d4e700e4ba631075da4935"
+metafile = true
+
+[[files]]
+file = "resourcepacks/vanillatweaks.pw.toml"
+hash = "9d3c497e778cfd53f584c6f28b73a9e9478222d394a808cf6c2d9977857389e3"
 metafile = true
