@@ -2072,7 +2072,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "d49b20d6841ee811b7f7cef4aae51dfa6b52c37f1fca15823699f45900152966"
+hash = "79fa162d256d7fca393251c1fed1fb512a176cb46920c62e9e9f7cb4b2a446d5"
 metafile = true
 
 [[files]]
@@ -2227,7 +2227,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom-forge.pw.toml"
-hash = "22267079d5b777a0d8da7ec58707613711689dbb2902502b996658ec1a14bd8a"
+hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
 metafile = true
 
 [[files]]
@@ -2397,7 +2397,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "8cf77609004f936c13fc2f0f318d95f2987629c8e9383d1b96d1df21bceebd14"
+hash = "ecc7f96e163765d1ab9dc8e6d458307d7021f711a28f1665a9f197fd353ecd23"
 metafile = true
 
 [[files]]
@@ -2672,12 +2672,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "02d1e8879091ded4a1a13e6f1efe40cf4fa2b732e59cc749443bfea0931842ac"
+hash = "71a58baa4d8314fc779ac6a01c68e056338cffd22ce17e2afe5d281584344465"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f938bda35487d3d6713b17753818b3950fc36d0bd6872ce38f1545408e3972b6"
+hash = "dbef631742d9edecc1f7eead38c9e24ec0adbcba36723d489bca21cc6fbe5f9e"
 metafile = true
 
 [[files]]
