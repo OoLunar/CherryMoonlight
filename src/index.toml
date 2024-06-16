@@ -1897,7 +1897,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "6e2be95f40cb285cf1283f5614739b5a2276465a47ac84c319b44f16abaf0e5d"
+hash = "45bc4a2307ffe3dba376507ed39099fdd244ee1cab7ec1966dedeec1098a0d0c"
 metafile = true
 
 [[files]]
@@ -2182,7 +2182,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "f2df002d815fa35bf863aba6a4b440f5442bbeb7dd9659201937fa3a4e593e59"
+hash = "d850bb878170f1aa6a93f30ba856b822a3eaea8c04d0ea777804bab931a13029"
 metafile = true
 
 [[files]]
@@ -2352,7 +2352,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "8ca269a2461526a494e2ec48c19eff80ba3947a93675cf5043c8119fa0d14083"
+hash = "1e4d649f87b3ea1c1406cb6429bc73de379e66f45e1578b90c3a14b16979d21e"
 metafile = true
 
 [[files]]
@@ -2497,17 +2497,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "d94006a5350097fb6bdaf097dae2764ec2d00ca46ddcf8925eff64f8d8da3245"
+hash = "5027cf73eefaf79eabd0764392b0215eceee53d66e54f2bf6dac961c59499cd7"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "53b970b4755f0fa00f00f8a6bb3b81e303deeeff2831f933c5818ab57feb4ee8"
+hash = "54e72778b11eac52516fe0d4c5d6eae72f2d2f306c97fd822b55de9dcba14c3b"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "74d1e4ae1792c4f6d9acf984936222f845d11f71da8df3943440a5aec108a4d5"
+hash = "19aa879d120e19d911763a2b1b4987cbb1f10f593bf39867e261535fc464dfa6"
 metafile = true
 
 [[files]]
@@ -2557,7 +2557,7 @@ metafile = true
 
 [[files]]
 file = "mods/strictly-origins.pw.toml"
-hash = "5fd73dd4ec674b613353d8cfb3e1a0318bcecdce1d0a765beadcdd3c14d5195c"
+hash = "2a005ed7e99e5b6537fa5f1ba3f55741e5580db26d582417fbb09da7f7385754"
 metafile = true
 
 [[files]]
