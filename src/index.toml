@@ -1747,7 +1747,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "e83a90a5cf68abc34b30252825b16e0c95ca9245cf99788265020d6fa106e86a"
+hash = "1e4d385cb467c67c0e55ba9c91d4d8930b870a426c9acc7051dccc002033d0de"
 metafile = true
 
 [[files]]
@@ -1897,7 +1897,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "45bc4a2307ffe3dba376507ed39099fdd244ee1cab7ec1966dedeec1098a0d0c"
+hash = "68b40f7eaa1eaf8cbc0753477f2ec84ba7a59f67f66b47362cefcd3e21804fdb"
 metafile = true
 
 [[files]]
@@ -1987,7 +1987,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "b2a8a34e87a5ffdbfcb35d1df344e630ac968aad359eced94aa58a184f2d3fa8"
+hash = "0fd10c12dafdf5bc68631af61cbf32e5153be1fde4a98d46840b935b6a2e6e3b"
 metafile = true
 
 [[files]]
@@ -1997,7 +1997,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "4de1820ba124b4c7e86396baf68401fc7355c0c78fd861ccbed0971aced2a711"
+hash = "5f25fc7780b589577a825f8e5f3063eda67c6057052f76054bd7620901a67ea6"
 metafile = true
 
 [[files]]
@@ -2502,7 +2502,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "146df1244be895d312f283ae27292926c10ec3bef9c4b4bdf5f357429109b9d3"
+hash = "cddc756c2cdf869105bea42f889a92e18b15019b33df841e88b90f2283bb64bb"
 metafile = true
 
 [[files]]
