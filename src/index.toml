@@ -108,11 +108,6 @@ hash = "b1a192f3f280ed31922583e1b563ad3552e8a951310d76bda5ad018770c3cbda"
 metafile = true
 
 [[files]]
-file = "mods/atomicstrykers-infernal-mobs.pw.toml"
-hash = "6a528d1e9565c66754420460574b9f074d3dc298e627116cd2ea6d6777764585"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "71ac69abb3b7e06485b7982f7ef9fef9a3e50016fbf9d4dc9536e8670360d579"
 metafile = true
@@ -1049,9 +1044,4 @@ metafile = true
 [[files]]
 file = "resourcepacks/origins-expanded-foods.pw.toml"
 hash = "ace22a141a315d2d0cbf173dc5b85396c69bf276a9d4e700e4ba631075da4935"
-metafile = true
-
-[[files]]
-file = "resourcepacks/vanillatweaks.pw.toml"
-hash = "9d3c497e778cfd53f584c6f28b73a9e9478222d394a808cf6c2d9977857389e3"
 metafile = true

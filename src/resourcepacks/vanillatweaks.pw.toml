@@ -1,7 +1,0 @@
-name = "VanillaTweaks"
-filename = "VanillaTweaks_r222470.zip"
-
-[download]
-url = "https://github.com/OoLunar/CherryMoonlight/blob/master/src/resourcepacks/VanillaTweaks_r222470.zip"
-hash-format = "sha256"
-hash = "676b9d72333f613fa2408c22cca4d8d2aa34d707e327c48127196fd3fa8db2ed"
