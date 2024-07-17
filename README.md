@@ -25,8 +25,6 @@ You're always welcome to join our Discord: https://discord.gg/Bsv7zSFygc
 
 # Attributions
 
-This modpack uses the [No Z Fighting](https://www.curseforge.com/minecraft/texture-packs/no-z-fighting) texture pack.
-
 This modpack also includes the following mods:
 - [More Villagers](https://www.curseforge.com/minecraft/mc-mods/more-villagers)
 - [Awesome Dungeon Nether Edition](https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-nether-forge)
