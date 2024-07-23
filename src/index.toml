@@ -374,7 +374,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "79fa162d256d7fca393251c1fed1fb512a176cb46920c62e9e9f7cb4b2a446d5"
+hash = "58918207c11642ae35cb7a9b0a2945399db821710202f8d81691ad8eafe4233a"
 metafile = true
 
 [[files]]
@@ -519,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e091341bf6ba7eed6700d6997c364bd5293ecbfefe37fea9a84bb725f59318b0"
+hash = "1f3c6ed9a236c945ad04fe0b85079abbdb2769a922be982217b8972221adb412"
 metafile = true
 
 [[files]]
@@ -589,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/make-bubbles-pop.pw.toml"
-hash = "551e6f86aca2a357ffe859301d9740aa6690d5ceb2e1f91067a1cc6a6e600e39"
+hash = "e6be0f9e5f62e48a3b881087a66f53f148c8556e896a283e40d9799b9103d192"
 metafile = true
 
 [[files]]
@@ -859,7 +859,7 @@ metafile = true
 
 [[files]]
 file = "mods/strictly-origins.pw.toml"
-hash = "2a005ed7e99e5b6537fa5f1ba3f55741e5580db26d582417fbb09da7f7385754"
+hash = "43c1a937e43cacdfe4b3742570ed22a47511659a5f04d58962f1b350f4602bc7"
 metafile = true
 
 [[files]]
