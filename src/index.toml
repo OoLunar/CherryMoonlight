@@ -912,11 +912,6 @@ hash = "176eda94ad465f880e240ef29685dfd9b21aac18c1606c8d526b9dcad4a232f4"
 metafile = true
 
 [[files]]
-file = "mods/tiny-item-animations.pw.toml"
-hash = "d32ec93eb025c688325e27d255e547439b1c7b6eb1f9f6621c8f985d683cd220"
-metafile = true
-
-[[files]]
 file = "mods/too-many-glyphs.pw.toml"
 hash = "f24be919aa35c39f01c1f507415b1a50b922082c77f9dc3f5379bf95b90bc44a"
 metafile = true
