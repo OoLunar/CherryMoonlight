@@ -136,7 +136,8 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
             // Find the updated mods
-            foreach (PackwizEntry entry in newEntries.Where(newEntry => oldEntries.All(oldEntry => oldEntry.Filename != newEntry.Filename)))
+            // Exclude removed mods
+            foreach (PackwizEntry entry in newEntries.Where(newEntry => oldEntries.Contains(newEntry) && oldEntries.All(oldEntry => oldEntry.Filename != newEntry.Filename)))
             {
                 string? updateString = null;
                 if (entry.Update is not null)
