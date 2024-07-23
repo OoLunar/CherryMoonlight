@@ -84,27 +84,43 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             }
 
             // Parse the old state of the modpack
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"restore --staged --worktree --source={latestTag} .", logger);
             if (exitCode != 0)
             {
                 logger.Error("Failed to checkout latest tag: {Output}", output);
                 return exitCode;
             }
 
+            // Cleanup any stray files
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "clean -fdx .", logger);
+            if (exitCode != 0)
+            {
+                logger.Error("Failed to clean the working directory: {Output}", output);
+                return exitCode;
+            }
+
             IReadOnlyList<PackwizEntry> oldEntries = await GrabPackwizEntriesAsync(logger);
 
             // Parse the new state of the modpack
-            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestCommit} .", logger);
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"restore --staged --worktree --source={latestCommit} .", logger);
             if (exitCode != 0)
             {
                 // Try checking out the latest tag instead
                 logger.Warning("Checking out latest tag due to failure to checkout latest commit: {Output}", output);
-                (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"checkout {latestTag} .", logger);
+                (output, exitCode) = await ExecuteProgramAsync(GitBinary, $"restore --staged --worktree --source={latestTag} .", logger);
                 if (exitCode != 0)
                 {
                     logger.Error("Failed to checkout latest tag: {Output}", output);
                     return exitCode;
                 }
+            }
+
+            // Cleanup any stray files
+            (output, exitCode) = await ExecuteProgramAsync(GitBinary, "clean -fdx .", logger);
+            if (exitCode != 0)
+            {
+                logger.Error("Failed to clean the working directory: {Output}", output);
+                return exitCode;
             }
 
             // Update the modpack
