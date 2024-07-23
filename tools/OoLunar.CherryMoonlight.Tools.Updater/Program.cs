@@ -135,6 +135,33 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             Version modpackVersion = await GrabModpackVersionAsync(logger);
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
+            // Find the updated mods
+            foreach (PackwizEntry entry in newEntries.Where(newEntry => !oldEntries.Any(oldEntry => oldEntry.Filename != newEntry.Filename)))
+            {
+                string? updateString = null;
+                if (entry.Update is not null)
+                {
+                    if (entry.Update.Curseforge is not null)
+                    {
+                        updateString = $"curseforge add -y --addon-id {entry.Update.Curseforge.ProjectId}";
+                    }
+                    else if (entry.Update.Modrinth is not null)
+                    {
+                        updateString = $"modrinth add -y --project-id {entry.Update.Modrinth.ModId}";
+                    }
+                }
+
+                if (updateString is not null)
+                {
+                    // Readd all mod dependencies
+                    (output, exitCode) = await ExecuteProgramAsync(PackwizBinary, updateString, logger);
+                    if (exitCode != 0)
+                    {
+                        logger.Error("Failed to readd {Mod}: {Output}", entry.Filename, output);
+                    }
+                }
+            }
+
             // Print the changelog to console and update the modpack version
             await GenerateChangelogAsync(modpackVersion, oldEntries, newEntries, logger);
 
@@ -205,7 +232,8 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                         Environment.Exit(LogAndExit(logger, modSyntax.Diagnostics));
                         return null;
                     }
-                    else if (!modSyntax.TryToModel(out PackwizEntry? entry, out DiagnosticsBag modDiagnostics, new TomlModelOptions()
+
+                    if (!modSyntax.TryToModel(out PackwizEntry? entry, out DiagnosticsBag modDiagnostics, new TomlModelOptions()
                     {
                         ConvertPropertyName = InflectorExtensions.Kebaberize,
                         IgnoreMissingProperties = true
@@ -214,10 +242,8 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                         Environment.Exit(LogAndExit(logger, modDiagnostics));
                         return null;
                     }
-                    else
-                    {
-                        currentVersions.Add(entry);
-                    }
+
+                    currentVersions.Add(entry);
                 }
 
                 return currentVersions;
