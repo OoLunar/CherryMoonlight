@@ -136,7 +136,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             IReadOnlyList<PackwizEntry> newEntries = await GrabPackwizEntriesAsync(logger);
 
             // Find the updated mods
-            foreach (PackwizEntry entry in newEntries.Where(newEntry => !oldEntries.Any(oldEntry => oldEntry.Filename != newEntry.Filename)))
+            foreach (PackwizEntry entry in newEntries.Where(newEntry => oldEntries.All(oldEntry => oldEntry.Filename != newEntry.Filename)))
             {
                 string? updateString = null;
                 if (entry.Update is not null)
@@ -161,6 +161,9 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                     }
                 }
             }
+
+            // Refresh for any new mods
+            newEntries = await GrabPackwizEntriesAsync(logger);
 
             // Print the changelog to console and update the modpack version
             await GenerateChangelogAsync(modpackVersion, oldEntries, newEntries, logger);
