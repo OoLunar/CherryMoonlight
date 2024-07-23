@@ -1,8 +1,28 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/betterf3.toml"
+file = "config/defaultoptions/extra/config/betterf3.toml"
 hash = "72a726068ab4edb8826ffd924b37d9ac6f90e7064d2195739675ad6d4ec8b7a3"
+
+[[files]]
+file = "config/defaultoptions/extra/config/ferritecore-mixin.toml"
+hash = "0ba20c3258eed749d867a7068c0a1a6036276fe32f6dad23b5dcc66f28baf11e"
+
+[[files]]
+file = "config/defaultoptions/extra/config/forgeshot-client.toml"
+hash = "e5bb80c9944daad7a0653e57cc9bbfa76fe5925f00f64449e24e586b61c92568"
+
+[[files]]
+file = "config/defaultoptions/extra/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "542788029b84da4469831f6180307cdc1b1b4703ee8ba5100faf8571614d07d2"
+
+[[files]]
+file = "config/defaultoptions/extra/config/simple-rpc/server-entries.toml"
+hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
+
+[[files]]
+file = "config/defaultoptions/extra/config/simple-rpc/simple-rpc.toml"
+hash = "95e7b86e9fbbe28a7751dc3f21c50f12f8b41a75ca6b177093f5f890af305a70"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -11,22 +31,6 @@ hash = "74cd39698ed3e7adbb5cff26da33b3a8f5c172eba0f46a9021e1881600e784b9"
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "600adbdd72c05457a1dfbd38065979a4a442e18770356c588a9eeb0eaa3fe707"
-
-[[files]]
-file = "config/forgeshot-client.toml"
-hash = "e5bb80c9944daad7a0653e57cc9bbfa76fe5925f00f64449e24e586b61c92568"
-
-[[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "542788029b84da4469831f6180307cdc1b1b4703ee8ba5100faf8571614d07d2"
-
-[[files]]
-file = "config/simple-rpc/server-entries.toml"
-hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
-
-[[files]]
-file = "config/simple-rpc/simple-rpc.toml"
-hash = "95e7b86e9fbbe28a7751dc3f21c50f12f8b41a75ca6b177093f5f890af305a70"
 
 [[files]]
 file = "datapacks/Cisco Rpg Origins 1.0.2.zip"
@@ -275,6 +279,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "c98b92c96eb546872a0d203969ddba29a17f6ab0e57ff93081d81a138562e8b7"
+metafile = true
+
+[[files]]
+file = "mods/craterlib.pw.toml"
+hash = "17dcc1e3ff579d2eed3d8a5dc44d4ad86f5bf9802094974970f0c74f81baaa79"
 metafile = true
 
 [[files]]
