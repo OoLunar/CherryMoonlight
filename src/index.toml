@@ -92,11 +92,6 @@ hash = "3bea0442d74ad9116aa556afd0b84b54ecfd9504af3dabd914c829728082a34c"
 metafile = true
 
 [[files]]
-file = "mods/armor-visibility.pw.toml"
-hash = "9dd94499de6c706128adc5de10416549c1fc6dadd1c2fff57d39155b874e8ff7"
-metafile = true
-
-[[files]]
 file = "mods/ars-elemental.pw.toml"
 hash = "5d86bcaf1ee621abef8f5169485e2647e2f0fb0c9c5fb90b1fd8b359e57f3382"
 metafile = true
@@ -534,6 +529,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "413806f003b9c9b62f701d97aaf128534618d25c3fda27505e1543b44fe20f79"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
 metafile = true
 
 [[files]]
