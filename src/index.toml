@@ -537,16 +537,6 @@ hash = "413806f003b9c9b62f701d97aaf128534618d25c3fda27505e1543b44fe20f79"
 metafile = true
 
 [[files]]
-file = "mods/just-zoom-forge.pw.toml"
-hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
-metafile = true
-
-[[files]]
-file = "mods/just-zoom.pw.toml"
-hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
-metafile = true
-
-[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "6517474abbb8d3e86845c4f26998042c08b21267b26b3b6b622716187762c6a4"
 metafile = true
