@@ -904,7 +904,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiny-item-animations.pw.toml"
-hash = "c9b162ed989a33914876da422327223ef5adc9b18d77c18484e8f6685e250a9d"
+hash = "d32ec93eb025c688325e27d255e547439b1c7b6eb1f9f6621c8f985d683cd220"
 metafile = true
 
 [[files]]
