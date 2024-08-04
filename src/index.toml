@@ -203,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "16ed2b40714f90df2f9e72da4b9303a51e2caecaf363a0120795c61fbc82b2ba"
+hash = "857b7beb99a473aadfd12c0ff059c76360462b248b5082f3c9208f7883e1c23b"
 metafile = true
 
 [[files]]
@@ -278,7 +278,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "17dcc1e3ff579d2eed3d8a5dc44d4ad86f5bf9802094974970f0c74f81baaa79"
+hash = "c8fd56eb2e19c67ba23f78d9128522071ac4052d5014bbce8c9d6449af553b55"
 metafile = true
 
 [[files]]
@@ -458,7 +458,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgematica.pw.toml"
-hash = "6e54ed910d27e696a80cd786e5026f15c32029a4bf483e8fa8b310269e057f20"
+hash = "e8c46084e95c8a256c33d7a3657bb57dc4f7c0df7ec71ca8c2d8824b02f7f8ec"
 metafile = true
 
 [[files]]
@@ -588,7 +588,7 @@ metafile = true
 
 [[files]]
 file = "mods/mafglib.pw.toml"
-hash = "a663232f953d1bc5988da7a0c3f908aa6fa523b0ea7abfb080942a2c00abcebd"
+hash = "b04e1ba803e5e29ef226cc6b2d44c1a5ffccafc01fd98e70062b6bfe3f4e35c2"
 metafile = true
 
 [[files]]
@@ -1042,5 +1042,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/origins-expanded-foods.pw.toml"
-hash = "ace22a141a315d2d0cbf173dc5b85396c69bf276a9d4e700e4ba631075da4935"
+hash = "10e6371ebff6d9832d3a8eca5beb8ffe71a01dbbffea7f2ea9c86a6817b8b215"
 metafile = true
