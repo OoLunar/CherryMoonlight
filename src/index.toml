@@ -203,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "857b7beb99a473aadfd12c0ff059c76360462b248b5082f3c9208f7883e1c23b"
+hash = "d3522313dbd64192c20380371a94d7f9ba8134bf153b262c60f388189652c987"
 metafile = true
 
 [[files]]
@@ -278,7 +278,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "c8fd56eb2e19c67ba23f78d9128522071ac4052d5014bbce8c9d6449af553b55"
+hash = "98cbf8f000b8f97376ada92cf61b9f6bf5c99574186ddd905b275a1b544bf8cd"
 metafile = true
 
 [[files]]
@@ -488,7 +488,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "d850bb878170f1aa6a93f30ba856b822a3eaea8c04d0ea777804bab931a13029"
+hash = "372bc22e2a2660484ec7160e2417adec1c3c00a0237d4536c0f5be1ff5f12c23"
 metafile = true
 
 [[files]]
@@ -808,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8ead8c45d35a0018613dc675c7e11700ff777aa7c289c3d8f868de51dee01553"
+hash = "87116b0029045a0b01989ea1b4fdc159f12e78f75c6af46d62ff1831286ef046"
 metafile = true
 
 [[files]]
