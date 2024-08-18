@@ -203,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d3522313dbd64192c20380371a94d7f9ba8134bf153b262c60f388189652c987"
+hash = "e67725bdfd07397499f3be3ef400eb368920bc402510500f447dd6b34cecfe69"
 metafile = true
 
 [[files]]
@@ -473,7 +473,7 @@ metafile = true
 
 [[files]]
 file = "mods/great-scrollable-tooltips.pw.toml"
-hash = "e93889217207e954397b78960476be4809e4cff5080f8521613b414c8eed2c30"
+hash = "acc699fefb2bbc852b9b77fb356927f0f6899c2da19fcb56bf9a31c577cf10bb"
 metafile = true
 
 [[files]]
@@ -578,7 +578,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "8aea5cb3f20c40711a36a9a25cc58b3ff5315eea9ff3995bd522acab40a18511"
+hash = "a48e20586160ee00795d37bed4a130650278f1ee1691e1d5e547faa0ab242f0a"
 metafile = true
 
 [[files]]

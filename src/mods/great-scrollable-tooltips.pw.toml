@@ -1,13 +1,13 @@
 name = "Great Scrollable Tooltips"
-filename = "great_scrollable_tooltips-11.0.0-beta.1+forge.jar"
+filename = "great_scrollable_tooltips-11.0.1-beta.1+forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "84e356c50c1b9c28576223f3f4e1605d3751940c"
+hash = "fed8a4194374a34f83fe8e535abf8bda66cc25ea"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5355002
+file-id = 5628328
 project-id = 982671
