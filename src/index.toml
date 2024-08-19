@@ -217,6 +217,11 @@ hash = "c6545c6b2f4ccafc9d611b4ee438623a2ccf4f830674eed92ad6fed608cbf219"
 metafile = true
 
 [[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "f7b375699fba3e85f38ec4c0c5d6bf19b5004677857ca2e9dad3c6732b2cc1c8"
+metafile = true
+
+[[files]]
 file = "mods/clear-despawn.pw.toml"
 hash = "6cbf50cb84ccea9409a102fd503e30b020bbd8d8a1759b9f98320f4d38e3b93d"
 metafile = true
