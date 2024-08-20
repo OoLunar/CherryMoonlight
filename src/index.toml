@@ -773,7 +773,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures.pw.toml"
-hash = "c37dcc1e9263e293f17c0f84895465c6d09191bfb47151538a788310921c0320"
+hash = "5c7fcfa7fc4fdf1f69112b77c1c411994a2319482b29712f9fc232307c926790"
 metafile = true
 
 [[files]]
@@ -983,7 +983,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "71a58baa4d8314fc779ac6a01c68e056338cffd22ce17e2afe5d281584344465"
+hash = "f0323979d702da319c40b441f773f8689096f065ae52b2b9ffc52cd0a5c4e6b3"
 metafile = true
 
 [[files]]
