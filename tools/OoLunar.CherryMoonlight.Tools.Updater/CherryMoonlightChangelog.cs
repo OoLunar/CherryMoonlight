@@ -13,6 +13,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
         public IReadOnlyList<PackwizEntry> After { get; init; }
         public IReadOnlyList<PackwizEntry> NewMods { get; init; }
         public IReadOnlyList<PackwizEntry> RemovedMods { get; init; }
+        public IReadOnlyList<PackwizEntry> RenamedMods { get; init; }
         public IReadOnlyDictionary<PackwizEntry, (string oldVersion, string newVersion)> UpdatedMods { get; init; }
         public Version OldModpackVersion { get; init; }
         public Version NewModpackVersion { get; init; }
@@ -25,6 +26,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
             OldModpackVersion = currentModpackVersion;
             RemovedMods = before.Where(oldEntry => !after.Any(newEntry => newEntry.Name == oldEntry.Name)).ToList();
             NewMods = after.Where(newEntry => !before.Any(oldEntry => oldEntry.Name == newEntry.Name)).ToList();
+            List<PackwizEntry> renamedMods = [];
 
             bool minorBump = NewMods.Count > 0 || RemovedMods.Count > 0;
             bool patchBump = false;
@@ -35,6 +37,11 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 {
                     if (oldEntry.Name != newEntry.Name)
                     {
+                        if (oldEntry.IndexFile.Equals(newEntry.IndexFile, StringComparison.Ordinal))
+                        {
+                            renamedMods.Add(oldEntry);
+                        }
+
                         continue;
                     }
                     else if (TryParseVersion(oldEntry.Filename, out Version? currentVersion, out string? currentVersionSuffix) && TryParseVersion(newEntry.Filename, out Version? newVersion, out string? newVersionSuffix))
@@ -58,6 +65,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 }
             }
 
+            RenamedMods = renamedMods;
             UpdatedMods = updatedMods;
             string? explicitVersion = Environment.GetEnvironmentVariable("MODPACK_VERSION");
             if (!string.IsNullOrWhiteSpace(explicitVersion) && Version.TryParse(explicitVersion, out Version? explicitParsedVersion))
@@ -65,13 +73,13 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 NewModpackVersion = explicitParsedVersion;
                 return;
             }
-            else if (minorBump)
-            {
-                NewModpackVersion = new Version(currentModpackVersion.Major, currentModpackVersion.Minor + 1, 0);
-            }
             else if (patchBump)
             {
                 NewModpackVersion = new Version(currentModpackVersion.Major, currentModpackVersion.Minor, currentModpackVersion.Build + 1);
+            }
+            else if (minorBump)
+            {
+                NewModpackVersion = new Version(currentModpackVersion.Major, currentModpackVersion.Minor + 1, 0);
             }
             else
             {

@@ -247,6 +247,7 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                         return null;
                     }
 
+                    entry.IndexFile = mod.File;
                     currentVersions.Add(entry);
                 }
 
@@ -348,6 +349,28 @@ namespace OoLunar.CherryMoonlight.Tools.Updater
                 stringBuilder.AppendLine("## New Mods");
                 stringBuilder.AppendLine();
                 foreach (PackwizEntry mod in changelog.NewMods)
+                {
+                    stringBuilder.AppendLine($"- `{mod.Name}`");
+                }
+            }
+
+            if (changelog.RenamedMods.Count == 0)
+            {
+                logger.Information("No mods were renamed.");
+            }
+            else if (changelog.RenamedMods.Count == 1)
+            {
+                logger.Information("Renamed Mod: {RenamedMods}", changelog.RenamedMods[0].Name);
+                stringBuilder.AppendLine("## Renamed Mods");
+                stringBuilder.AppendLine();
+                stringBuilder.AppendLine($"- `{changelog.RenamedMods[0].Name}`");
+            }
+            else
+            {
+                logger.Information("Renamed Mods ({RenamedModCount:N0}): {RenamedMods}", changelog.RenamedMods.Count, string.Join(", ", changelog.RenamedMods.Select(mod => mod.Name)));
+                stringBuilder.AppendLine("## Renamed Mods");
+                stringBuilder.AppendLine();
+                foreach (PackwizEntry mod in changelog.RenamedMods)
                 {
                     stringBuilder.AppendLine($"- `{mod.Name}`");
                 }
