@@ -552,6 +552,11 @@ hash = "f0b4fcf820a8558f57c62aced5b70afda8bc49803838696d6584125260c63905"
 metafile = true
 
 [[files]]
+file = "mods/longer-login-times.pw.toml"
+hash = "96c0f0fbac4257ec279efa5c75de234dccc2a24a905aab09a98eb411629e330e"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "a48e20586160ee00795d37bed4a130650278f1ee1691e1d5e547faa0ab242f0a"
 metafile = true
@@ -624,11 +629,6 @@ metafile = true
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "415e8b90eda716cd0de348bc03e4479d0896905bc5ea0c595e174eaf52c496d6"
-metafile = true
-
-[[files]]
-file = "mods/notimeoutnomore.pw.toml"
-hash = "38dae9350677c43f698014b79c511cf247b794650ef4bb45119abe04b4d6ce2b"
 metafile = true
 
 [[files]]
@@ -844,6 +844,11 @@ metafile = true
 [[files]]
 file = "mods/structure-gel-api.pw.toml"
 hash = "0b1cb023f725238fb401e700c8147b451af1217633eda07f126a0988723b70d0"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "1f20786408ae526f5df6a6cde7c04c4dd4afc2d87d5bc24a109687622f9db356"
 metafile = true
 
 [[files]]
