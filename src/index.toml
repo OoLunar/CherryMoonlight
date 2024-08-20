@@ -127,6 +127,11 @@ hash = "0f673730f2085ee851b8661e9a30affe5bb3e5eec32e72b437f990b7df8f3c0e"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "d8feef091f0f3cd8b3c515a2f8be8253199423e6479fa4795105bbdaaf55a3a9"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
 metafile = true
@@ -223,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "620351b6440c5a97a7ea574f4bba4f1f83b84ce2f908fe31a116406e35fa6c57"
+hash = "fe2b1cb8e815ed0fb5fbc46cb808411237f1694dce52f87242a1798fffcfc558"
 metafile = true
 
 [[files]]
@@ -299,6 +304,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "0fd10c12dafdf5bc68631af61cbf32e5153be1fde4a98d46840b935b6a2e6e3b"
+metafile = true
+
+[[files]]
+file = "mods/cull-leaves.pw.toml"
+hash = "0c793add13628f1ebaea6843fe54c77e4e2a5c1e1ca88efe67612b4dcbf318a5"
 metafile = true
 
 [[files]]
@@ -402,6 +412,11 @@ hash = "2a78b217e2d77077007723f87eef6ca2508bfa6ef32e421482a7fed30aee7580"
 metafile = true
 
 [[files]]
+file = "mods/entity-collision-fps-fix.pw.toml"
+hash = "32d34adf17ac072c7fd7f08b16c8dd9dcfe4435674a0511a97cee780865452fc"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "d42359be3bf3bdb65c5072f06d4f34e1ea9b40184af94f1631589d61da0a007a"
 metafile = true
@@ -414,6 +429,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "2df773e7b7659f53640f79e1e2b2e1de0df20277dc61de90a1d12881116cdc49"
+metafile = true
+
+[[files]]
+file = "mods/experimental-settings-disabler.pw.toml"
+hash = "350fa7b18c5d7e349aa17dda387c7fddea8f41da030cd5af09a0bbdb2a6f6f4d"
 metafile = true
 
 [[files]]
@@ -442,6 +462,11 @@ hash = "51436656f2fbac1996b8b0db1313674727e70dd14ed8e102a4ea8905c82b4860"
 metafile = true
 
 [[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "fa404b33180ec63d7f4a6b211275f7c10766256474d16427282ee8c112d31f33"
+metafile = true
+
+[[files]]
 file = "mods/fast-paintings.pw.toml"
 hash = "8d418b1a8c4b2e329f373d4cd57cf86c8c7493a422f6ffc80ef22051b41f05da"
 metafile = true
@@ -449,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "0c820f51223c9f36609b2ab9c2cfe84c9f8920baee03d27535470e41330b9a76"
+metafile = true
+
+[[files]]
+file = "mods/feytweaks.pw.toml"
+hash = "cd17ed095242c2d617ba6d9d854c489c13821e1c2985bd17f4752e3f00893a34"
 metafile = true
 
 [[files]]
@@ -464,6 +494,11 @@ metafile = true
 [[files]]
 file = "mods/forgeshot.pw.toml"
 hash = "1d7d717e8f4fda09088a4231f1d0e58dcac988c84aa61d7e8438131e93e1e43d"
+metafile = true
+
+[[files]]
+file = "mods/full-brightness-toggle.pw.toml"
+hash = "c73592061a91144fd4998d2d0c6645b542d5feb9eb5601841f8fb87ec9bf9e15"
 metafile = true
 
 [[files]]
@@ -572,6 +607,11 @@ hash = "75db5a82c47c470b5f7483ef8008073616ebe218672d9fb60242de5788c6d764"
 metafile = true
 
 [[files]]
+file = "mods/lightspeedmod.pw.toml"
+hash = "8bcd18e098706a797aee9ab5ef20c526d3431a11f15e2f66f8389e16d62c3b0e"
+metafile = true
+
+[[files]]
 file = "mods/lil-wings.pw.toml"
 hash = "f0b4fcf820a8558f57c62aced5b70afda8bc49803838696d6584125260c63905"
 metafile = true
@@ -614,6 +654,11 @@ metafile = true
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "9ebfa0f30ebd694ec8b0e8e8c90611ce4bff95bb86ad09afe4392e42ed5dd2d6"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "22884187b6e8fd7766ce57d8511fb8e63f9210cbb5a16334588b59c431a83a84"
 metafile = true
 
 [[files]]
@@ -674,6 +719,11 @@ metafile = true
 [[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "7053c87bcb22443bab9d614d8ea218addcd2e56bce426c7c4b36bbc24c48f1f9"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "ad5ea7db099e46fb75851c3ec91393256006c78e55eb4615ca7c764f1668e2e8"
 metafile = true
 
 [[files]]
@@ -762,6 +812,11 @@ hash = "27de082ec1cc3eecd3bd0cc742d86b2df07c0914151e11f73ae75aa18032571b"
 metafile = true
 
 [[files]]
+file = "mods/redirector.pw.toml"
+hash = "598583e7acba1c7e5e322c5fb3e737feba1ae2b18ee84db2e1675c6ad78f76fd"
+metafile = true
+
+[[files]]
 file = "mods/reforgium.pw.toml"
 hash = "dd102ab1298ca331c3b6226bf45f23e37a3a690a4d98b959fa1a2aa6488cb43a"
 metafile = true
@@ -782,6 +837,11 @@ hash = "610977bdb0ad5cbbf464f3185941f3a45d0f9e6925f1c6e0c3dab2e32fa881ff"
 metafile = true
 
 [[files]]
+file = "mods/rrls.pw.toml"
+hash = "83eda896132f7ff69ab57e156fe00f913bea3a4fcb739791878516468a116bc0"
+metafile = true
+
+[[files]]
 file = "mods/rubidium-extra.pw.toml"
 hash = "29e5b37522eee968368d1a638b3c2aab49c8e04306d80386a2e186403d744572"
 metafile = true
@@ -789,6 +849,11 @@ metafile = true
 [[files]]
 file = "mods/rubidium.pw.toml"
 hash = "3ff8c8b3282ec0c0a4ce16853acf5b7dd23297d4b557b280668b459739c709d0"
+metafile = true
+
+[[files]]
+file = "mods/saturn.pw.toml"
+hash = "9ee4f8587b73ee7fba1f4e6a1a0bc1fafc4d780b803fc56361240eed18b3d107"
 metafile = true
 
 [[files]]
