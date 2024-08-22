@@ -623,7 +623,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "1e4d649f87b3ea1c1406cb6429bc73de379e66f45e1578b90c3a14b16979d21e"
+hash = "8852489f97240d36d9f44623d58694b1b62c7508f4f8b1e9766c8151992cee8a"
 metafile = true
 
 [[files]]
@@ -778,7 +778,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "19aa879d120e19d911763a2b1b4987cbb1f10f593bf39867e261535fc464dfa6"
+hash = "0d5eee5e4c3e671824c66afbdd3556c047eef026330a3103705a398ebacfdc9f"
 metafile = true
 
 [[files]]
