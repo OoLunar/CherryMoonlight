@@ -463,7 +463,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "fa404b33180ec63d7f4a6b211275f7c10766256474d16427282ee8c112d31f33"
+hash = "7464055f5ea7214c5ed1aaeef89398a63fc72dc6b1f53b546d2d17095d7aa378"
 metafile = true
 
 [[files]]
@@ -523,7 +523,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "372bc22e2a2660484ec7160e2417adec1c3c00a0237d4536c0f5be1ff5f12c23"
+hash = "595b09b28e86fa338e50020e1ea1633b2c904da857fe81ac2ee3eeafad7a2601"
 metafile = true
 
 [[files]]
@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "87116b0029045a0b01989ea1b4fdc159f12e78f75c6af46d62ff1831286ef046"
+hash = "776dbd7dde53d83b9af2a4de337e61270024f99632bd2c14932b88ec36e9418a"
 metafile = true
 
 [[files]]
@@ -1053,7 +1053,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "dbef631742d9edecc1f7eead38c9e24ec0adbcba36723d489bca21cc6fbe5f9e"
+hash = "c69ece121283b6c725244bacb035cf7deb5365499ce009227ab159e50f2d5cd2"
 metafile = true
 
 [[files]]
