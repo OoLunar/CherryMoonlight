@@ -37,6 +37,11 @@ file = "datapacks/Cisco Rpg Origins 1.0.2.zip"
 hash = "c463433f843b23b7d85d5f7111819a299a6df29ff230e7e4348ea0cec705da03"
 
 [[files]]
+file = "datapacks/terralith-biome-saplings.pw.toml"
+hash = "a1c60b51026fc1eb517e06d25afdc67997c5a22d57c18aef6c4ee40c3439b041"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "945ceb14e94115ed5dcc77b0e7aed6340e034e4e07aa4ca2a542ac9d12827f5c"
 metafile = true
@@ -507,6 +512,11 @@ hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
 
 [[files]]
+file = "mods/gotta-go-fast.pw.toml"
+hash = "9ba96653938b849183de7b6c5f7aa3486859453edbf3cd1f3fea6a3921cd801e"
+metafile = true
+
+[[files]]
 file = "mods/great-scrollable-tooltips.pw.toml"
 hash = "acc699fefb2bbc852b9b77fb356927f0f6899c2da19fcb56bf9a31c577cf10bb"
 metafile = true
@@ -909,6 +919,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "c0f6e9bb99d9ce0677ae654a91624ee24e4646b208c092eba24ab8ba8de4d762"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "2d297e9e2f570b99e0a3fb37ba0f8618e7c291b4ec2e5a47f79a92a947036a37"
 metafile = true
 
 [[files]]

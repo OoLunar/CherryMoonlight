@@ -1,0 +1,13 @@
+name = "Custom Biome Saplings"
+filename = "biomesaplings-v1.1.3-1.21.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CYGkXnUb/versions/4vOxHC3K/biomesaplings-v1.1.3-1.21.zip"
+hash-format = "sha1"
+hash = "152f1735c95bc30173fa9b8f2b02ce2d81cea51c"
+
+[update]
+[update.modrinth]
+mod-id = "CYGkXnUb"
+version = "4vOxHC3K"
