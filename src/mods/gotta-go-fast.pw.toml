@@ -1,0 +1,13 @@
+name = "Gotta Go Fast"
+filename = "gottagofast-1.19.2-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf5c210e3db6c5b7fea6a4419e0f8b3b35dd721d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4886164
+project-id = 282064
