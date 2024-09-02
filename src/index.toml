@@ -38,7 +38,7 @@ hash = "c463433f843b23b7d85d5f7111819a299a6df29ff230e7e4348ea0cec705da03"
 
 [[files]]
 file = "datapacks/terralith-biome-saplings.pw.toml"
-hash = "a1c60b51026fc1eb517e06d25afdc67997c5a22d57c18aef6c4ee40c3439b041"
+hash = "f9a64f01c7ff797dfd66c0e19866e37790b3c598187aaf7e1b16731a8fd169aa"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "f0323979d702da319c40b441f773f8689096f065ae52b2b9ffc52cd0a5c4e6b3"
+hash = "2ea2fa2f01bfb72be97ec4d7ac255bae8d40cecdd000e78d46ca63b3fa1f2583"
 metafile = true
 
 [[files]]
