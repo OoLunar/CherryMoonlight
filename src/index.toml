@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "98cbf8f000b8f97376ada92cf61b9f6bf5c99574186ddd905b275a1b544bf8cd"
+hash = "8145f71f65e70e30628c0017a2f6e6ff22fdc5d19c3afafdf956a460d99fb7c2"
 metafile = true
 
 [[files]]
@@ -298,12 +298,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "7ee6c41f62f29e58ceccf2b5333c13a671d2fe20ea508f5bb40a1734f86e33f3"
+hash = "b15e9854be3e8cae81cef8300d17a26208cbb2e8f594a1e8700756c0101538d7"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9e8d09c69fad6e8d47179dacbefb0a0dd8fa69a829ec12ecf6834c6a3ae855d7"
+hash = "9d2ed39adea9e8e57f8e0c0b6475f64a69a627d230b842f92a74fc0621cfe9cd"
 metafile = true
 
 [[files]]
@@ -718,7 +718,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "8852489f97240d36d9f44623d58694b1b62c7508f4f8b1e9766c8151992cee8a"
+hash = "e846b754fe5482516341a870191df93bfc12d09f644437db11dbe96dbc48228d"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "3855c9fadf98b9af17ccafa3642d26efe94f317d1db73f7a9ea9b959fe8505fd"
+hash = "bb217c96d1f1aa347ef3b3c0f8b5252f17132b9d98cb0cb5aa8a082eaa177d9b"
 metafile = true
 
 [[files]]
