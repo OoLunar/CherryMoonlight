@@ -512,11 +512,6 @@ hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
 
 [[files]]
-file = "mods/gotta-go-fast.pw.toml"
-hash = "9ba96653938b849183de7b6c5f7aa3486859453edbf3cd1f3fea6a3921cd801e"
-metafile = true
-
-[[files]]
 file = "mods/great-scrollable-tooltips.pw.toml"
 hash = "acc699fefb2bbc852b9b77fb356927f0f6899c2da19fcb56bf9a31c577cf10bb"
 metafile = true
