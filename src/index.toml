@@ -457,11 +457,6 @@ hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
 
 [[files]]
-file = "mods/gotta-go-fast.pw.toml"
-hash = "9ba96653938b849183de7b6c5f7aa3486859453edbf3cd1f3fea6a3921cd801e"
-metafile = true
-
-[[files]]
 file = "mods/held-item-tooltips.pw.toml"
 hash = "e9743177deb8b50dab72ac4b2eff458f2bbc7122329a169bf6c3e2dd96742dc8"
 metafile = true
