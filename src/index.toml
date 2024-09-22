@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d4a22e06f4a6a0094559d1af374cabe274300f4f93f1960f5e22c0c9926c2dcd"
+hash = "6d379502a90dad9194b6add3cb96e1374a90f6e7f80e180e57ceed9ab78cad9b"
 metafile = true
 
 [[files]]
@@ -233,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "620351b6440c5a97a7ea574f4bba4f1f83b84ce2f908fe31a116406e35fa6c57"
+hash = "728c1843aea1060f3a0566000d6a6c50f86e8194f871505752743058bee4c29a"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "1f3c6ed9a236c945ad04fe0b85079abbdb2769a922be982217b8972221adb412"
+hash = "79d4ebcb349accc88627f2ed6c57c288b7adc58c200f9def45b70d4a1225f3c6"
 metafile = true
 
 [[files]]
@@ -893,7 +893,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "2a5d18b957888405273256527d1a17c67a506fb35366af5dd9209eccbde173f3"
+hash = "61605ed33cc3304c9bf15868fa72e17f1cbe579a53e9ca80ee819ca99b7cdc23"
 metafile = true
 
 [[files]]

@@ -1,12 +1,12 @@
 name = "CherryMoonlight"
 author = "OoLunar"
-version = "1.12.1"
+version = "1.12.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "34cb979fb06c90017190bfb9e2c2b624a388590bd6809f1d0f250aa163b53a12"
+hash = "af0954a2854113ee4e8d6d8ad17b4f00eb01e447403467c015402aff6dd7389a"
 
 [versions]
 forge = "43.3.9"
