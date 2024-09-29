@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "16c832bfc074f3b149e6f1704af0b04b3500aa0697d92c2f2310756fc0c41c13"
+hash = "af354beaabc9ef12ff999af6bde0027cb3d56fd643a73b91474c087d75f65feb"
 metafile = true
 
 [[files]]
@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "6d379502a90dad9194b6add3cb96e1374a90f6e7f80e180e57ceed9ab78cad9b"
+hash = "598234031a46caa9235e30f3d5403d8c2356ed59162a458bb0f186ed0641b7d9"
 metafile = true
 
 [[files]]
@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "58918207c11642ae35cb7a9b0a2945399db821710202f8d81691ad8eafe4233a"
+hash = "bb1e19411760131d3a45f20805a917a75124c80e73a2083d4c1b1965badb14a4"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "7464055f5ea7214c5ed1aaeef89398a63fc72dc6b1f53b546d2d17095d7aa378"
+hash = "fe457cd75fc1d8f63ce8e2dcfce121904b2670b27cf2860d60d4f55686a7bd4f"
 metafile = true
 
 [[files]]
