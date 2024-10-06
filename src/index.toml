@@ -58,7 +58,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "cd6762b917231c39da01962cf328a04286180bec42e15016701eb0e37ae6652a"
+hash = "8b3185f0cb32f1c218213c231c91702ced1cede97787c7850b8bb2bcc64034ed"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "79d4ebcb349accc88627f2ed6c57c288b7adc58c200f9def45b70d4a1225f3c6"
+hash = "08a4d86cd3426d2d447ab5e844f669f92ffb6283d26dc6c317a45ca5cf6c2895"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "2b28321f32d58252e65ac70c5cbf7329d7a35f9daebc8a4bc82225064467e657"
+hash = "e7044a72ab24cc8f6e095d62ed38690b4c729df57893005d0edd0a9ee71fa97c"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "2ea2fa2f01bfb72be97ec4d7ac255bae8d40cecdd000e78d46ca63b3fa1f2583"
+hash = "6cf50d4c3ba88f0190c971943a3a1eda02a9d6aca812cb61026d8bbffd98ebfd"
 metafile = true
 
 [[files]]
