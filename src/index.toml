@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "b0a0948183589e7986973ede205742915cb653695307daf17fffdec4737a6c92"
+hash = "bef37bea51a7367a6546558a0fbd1b672fdfd65bf367a14e95f015a5306ec6ea"
 metafile = true
 
 [[files]]
@@ -298,12 +298,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "b15e9854be3e8cae81cef8300d17a26208cbb2e8f594a1e8700756c0101538d7"
+hash = "6c60f28ddec48a53161763304b35130ffc9cba2cc8f12cabb97dd9d483983bc4"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9d2ed39adea9e8e57f8e0c0b6475f64a69a627d230b842f92a74fc0621cfe9cd"
+hash = "3b323331e2ebcd03843ee1a7e783290025750f67091c22e717bb29248dea61f6"
 metafile = true
 
 [[files]]
@@ -543,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "14cc489feb74068089201da7f68e453b1167b7a593f78dea4cf4f2e0ff439912"
+hash = "61bf5eceab41567b4c6cca5b068fa5990968a22c5ba0cd322c5f947043782e4e"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "08a4d86cd3426d2d447ab5e844f669f92ffb6283d26dc6c317a45ca5cf6c2895"
+hash = "708c9eb59187d616007ba99f8f2ecadb87f5df0bf7dbe63df940fbcf7236e02c"
 metafile = true
 
 [[files]]
@@ -663,7 +663,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "22884187b6e8fd7766ce57d8511fb8e63f9210cbb5a16334588b59c431a83a84"
+hash = "d5ebd6a072c380a9872729df7c48021f5f187329f51afbfcee43e952c49f6d08"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "e7044a72ab24cc8f6e095d62ed38690b4c729df57893005d0edd0a9ee71fa97c"
+hash = "d7ff3030b6eabe5a85c1f4b7627a42b77af6e9e59f3331484e81a299501059a3"
 metafile = true
 
 [[files]]
