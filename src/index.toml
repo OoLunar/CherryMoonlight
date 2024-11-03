@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "6820e75c0ca43789c12abb0666ee514d29686d6a13a8370fef12374e52d81fff"
+hash = "407a05dcb2aba01908b17c798fd39531a8b77387977de45f4418bfe2ea104292"
 metafile = true
 
 [[files]]
@@ -883,12 +883,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d7ff3030b6eabe5a85c1f4b7627a42b77af6e9e59f3331484e81a299501059a3"
+hash = "24e7a387b700020c4074a97776bd50cd35ffa11364a14897e6d18431d5bf9e9c"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "0d5eee5e4c3e671824c66afbdd3556c047eef026330a3103705a398ebacfdc9f"
+hash = "1c15cbe23006da62748ec528a1af543f9ba0b9047876e3a7d4bff6b41b1ee25f"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "6cf50d4c3ba88f0190c971943a3a1eda02a9d6aca812cb61026d8bbffd98ebfd"
+hash = "2b4363d83b35a4c27df44f4874762a2ad310b1df26bc5c5451f6c30a3218d3a3"
 metafile = true
 
 [[files]]
