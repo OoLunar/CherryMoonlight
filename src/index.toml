@@ -58,7 +58,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "8b3185f0cb32f1c218213c231c91702ced1cede97787c7850b8bb2bcc64034ed"
+hash = "20e4a2a67020e892ffc25e6535a3d3c017c100b132f0eee3dadccc6072d92041"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "1c15cbe23006da62748ec528a1af543f9ba0b9047876e3a7d4bff6b41b1ee25f"
+hash = "d06e06fa08ee8b1c60d705bb6f883e1c9ffd9f7019212eb26a2fc95ce2848887"
 metafile = true
 
 [[files]]
@@ -913,7 +913,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c0f6e9bb99d9ce0677ae654a91624ee24e4646b208c092eba24ab8ba8de4d762"
+hash = "ae167d4ca249afe94c9aceaef7b1a784dea94bbd5711b2e91c5090bd0748fe63"
 metafile = true
 
 [[files]]
