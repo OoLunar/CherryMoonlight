@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "bce38ffd50f182887795cdd3daf4bfb1968483bd719320d566cfed1254c456a0"
+hash = "993aae1aeb82074fe9b40253100a0ca6ac600545b508f6e4557752205b97410d"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "407a05dcb2aba01908b17c798fd39531a8b77387977de45f4418bfe2ea104292"
+hash = "4a6978b1f69335afe09858be40f52a924cb92a65d37c36bb952086ad7f7359a4"
 metafile = true
 
 [[files]]
@@ -628,7 +628,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a48e20586160ee00795d37bed4a130650278f1ee1691e1d5e547faa0ab242f0a"
+hash = "5d494ba82ba1e72c57adefb9e2774f7501689a0a680786248a923dbd933e0bae"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "e846b754fe5482516341a870191df93bfc12d09f644437db11dbe96dbc48228d"
+hash = "48a53da31c750a2b5cb4797bccfb50b3e743daed8b5d79bc75acc1fe3836f3c9"
 metafile = true
 
 [[files]]
@@ -883,12 +883,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "24e7a387b700020c4074a97776bd50cd35ffa11364a14897e6d18431d5bf9e9c"
+hash = "8c6b2a87f513e4809e19a0c5963a3b4d98e7285736d8c2eede4742160ad05741"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "d06e06fa08ee8b1c60d705bb6f883e1c9ffd9f7019212eb26a2fc95ce2848887"
+hash = "fd07435d259dffa17c2190e5e1241ae7e7bd317e89dea790e773b2ece79139c8"
 metafile = true
 
 [[files]]
