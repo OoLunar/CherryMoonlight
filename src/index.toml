@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "993aae1aeb82074fe9b40253100a0ca6ac600545b508f6e4557752205b97410d"
+hash = "7d17074013c9fcca8024561aaa04c76ed5e0b5454011de9e36b59003d116eaee"
 metafile = true
 
 [[files]]
@@ -868,7 +868,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
-hash = "b9479c849c6537d220fd88a9a26e3c850d894c2c6969b8a9a0d7da944d8f5138"
+hash = "e7e2edb286dbe61f7082e7b366ceb5164692b366327e3e22662b99d62e0e87a4"
 metafile = true
 
 [[files]]
