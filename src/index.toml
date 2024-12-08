@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "bef37bea51a7367a6546558a0fbd1b672fdfd65bf367a14e95f015a5306ec6ea"
+hash = "6d5bd00e3f3daabb7b3965be328b86ffc9bf58b50f9a3b24a87cecea539484cd"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "4a6978b1f69335afe09858be40f52a924cb92a65d37c36bb952086ad7f7359a4"
+hash = "319889e6696be6a753e9e369cef4802368071ccc840181d0b397bc4e549cbe14"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "fd07435d259dffa17c2190e5e1241ae7e7bd317e89dea790e773b2ece79139c8"
+hash = "1369b872b82ba6a721a1ea8fae4f699282c97eebe7e5a0b41cc4897f7225c45b"
 metafile = true
 
 [[files]]
