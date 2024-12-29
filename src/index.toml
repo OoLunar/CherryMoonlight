@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "dc14fbd9a8f67fc4237e381f4d82a8e9092711fc08d1725b81c3d7512d08fa14"
+hash = "feb7bf31c4715c9c2b2d6d3fcb43578547d33f12472a5b1717f1f4439cdd65da"
 metafile = true
 
 [[files]]
@@ -728,7 +728,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "ad5ea7db099e46fb75851c3ec91393256006c78e55eb4615ca7c764f1668e2e8"
+hash = "4b3f975d37b2f5faf8bdf1f9643dcfd1eacb436a3ed64e7535e1c53317a84c69"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "2b4363d83b35a4c27df44f4874762a2ad310b1df26bc5c5451f6c30a3218d3a3"
+hash = "57fb3809884df16ceb0cd2433052fae729f6af769c9ecb22d5b1e7718413dbbe"
 metafile = true
 
 [[files]]
