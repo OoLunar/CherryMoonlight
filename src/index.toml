@@ -543,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "61bf5eceab41567b4c6cca5b068fa5990968a22c5ba0cd322c5f947043782e4e"
+hash = "5810a5e8dbec47b104fd7abe081fb29b0fa853b3754661deab057971f264b443"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "feb7bf31c4715c9c2b2d6d3fcb43578547d33f12472a5b1717f1f4439cdd65da"
+hash = "4c085fb6ee2757cae5326d84ce77c1e3e691b2742232df879ec921000ab283b0"
 metafile = true
 
 [[files]]
