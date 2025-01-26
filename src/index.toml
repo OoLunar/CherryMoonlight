@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7d17074013c9fcca8024561aaa04c76ed5e0b5454011de9e36b59003d116eaee"
+hash = "ae335e84244a1547f2cfce22efbc26efbe87a1c61210d004dc6039d75b2e07ff"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "319889e6696be6a753e9e369cef4802368071ccc840181d0b397bc4e549cbe14"
+hash = "3dbac9a781be22979e237dda530f97af8b69d4c64fa2fa2c74797056d7548d8e"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "57fb3809884df16ceb0cd2433052fae729f6af769c9ecb22d5b1e7718413dbbe"
+hash = "0d6779edde0dd20033218b33157dc17a5c6c495ae0d9c90d545ea9ec1eb9bc60"
 metafile = true
 
 [[files]]
