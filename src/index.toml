@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "4c085fb6ee2757cae5326d84ce77c1e3e691b2742232df879ec921000ab283b0"
+hash = "70cf264be1f292b7ab36e4f64da9e80db6aa1554c0c572460b8f7c38c1c156c5"
 metafile = true
 
 [[files]]
@@ -978,7 +978,7 @@ metafile = true
 
 [[files]]
 file = "mods/texels-paintings.pw.toml"
-hash = "d0d5508b28d3fa0d6129799106da433d3cf8189efcad7fe353512315de63226e"
+hash = "f4e03f47d7ae5d8ac371d44529335ab3fd6c15abd48ea959d6ecc52650d66c3b"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "0d6779edde0dd20033218b33157dc17a5c6c495ae0d9c90d545ea9ec1eb9bc60"
+hash = "9dff2b407625c5974b06a05c4ca64f8ff009a25916b166b831dcfcc1f67d636f"
 metafile = true
 
 [[files]]
