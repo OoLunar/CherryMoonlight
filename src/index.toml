@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "bb217c96d1f1aa347ef3b3c0f8b5252f17132b9d98cb0cb5aa8a082eaa177d9b"
+hash = "8d2631257a5ae3e71f6096f232e8947aa99cc111a609f55763b1e8c07cfd7abb"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "cefad5c635e349b99d9fa64ebe9449453854676714284dd693bd3ebafa4c39f5"
+hash = "064596bf83f0466104a5a97359191c18cefbff64c75201e0382a583a5faceff0"
 metafile = true
 
 [[files]]
