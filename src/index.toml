@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "bb1e19411760131d3a45f20805a917a75124c80e73a2083d4c1b1965badb14a4"
+hash = "cb82f6beaf7c373991dc72bcbc1dd2551c475e8f6cc8db6bba4c26a8bb3050d6"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3dbac9a781be22979e237dda530f97af8b69d4c64fa2fa2c74797056d7548d8e"
+hash = "4ac63ac19664f24b74d15a248745ca10f55714fc0c830811c73378124f5b83af"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "48c14746e68c3b5f13c0b17c3e15801f77fc95c0e9bf0f31b9aabfab8c8b0a63"
+hash = "481c3d923318898229b067bb84fa319f1ca98f300b7b9e88b03ff534880ad74f"
 metafile = true
 
 [[files]]
