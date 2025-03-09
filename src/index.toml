@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "4ac63ac19664f24b74d15a248745ca10f55714fc0c830811c73378124f5b83af"
+hash = "10b348e4e5911e04bca024e06f12eff4e364a756110481f6c4978eec68659af0"
 metafile = true
 
 [[files]]
@@ -778,7 +778,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "eb6b168caf4f8b9f3e501e97caaa61d207ab83d6328ce2f4960c4003eca73e90"
+hash = "44be5b4e3516115e78d80e5ba5d888104bf6a0224df4f2dc186332597a66402a"
 metafile = true
 
 [[files]]
