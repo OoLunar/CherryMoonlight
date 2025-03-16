@@ -573,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "c5fde73338c062d4105a1434039a3dcc350c1a87d1f8c8e9cb36abb277ba4be5"
+hash = "1071a1e339c3486baba50b7417054cb203927f7c59bc6fec4398d1ac341afd78"
 metafile = true
 
 [[files]]
@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "9dff2b407625c5974b06a05c4ca64f8ff009a25916b166b831dcfcc1f67d636f"
+hash = "5d3dd18e9367840bfc8d772ed1ef25359fa15bb99392741ac67d027a5ec4d2f2"
 metafile = true
 
 [[files]]
