@@ -338,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/deep-aether.pw.toml"
-hash = "4296cf325317647c422d5d4697cd829f5d2c61576c6e80e58287ac8adc1cbc3e"
+hash = "a78de3e541b969a18452ee9de4c686c0f68cc3933a8d7b8fb96ff4b10b9f99b8"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "10b348e4e5911e04bca024e06f12eff4e364a756110481f6c4978eec68659af0"
+hash = "e09d3120ef839e26ce1264eb163b153e4120025bb887f98a5e1e310711b35177"
 metafile = true
 
 [[files]]
