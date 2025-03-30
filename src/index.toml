@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "64d03cfdf330fa647131d2cdc7cfaa2f868e0125fc4e05b8029a8169c9c2b356"
+hash = "3cdfb2e23d7d6506a9609beb2ef63bafdb77e155a077c4d6ef584f2f8e368d23"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "70cf264be1f292b7ab36e4f64da9e80db6aa1554c0c572460b8f7c38c1c156c5"
+hash = "f2d09fccebedea912020a9caa4a6c3778527619316e17bf4d4fd96d36b0180f1"
 metafile = true
 
 [[files]]
@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "8d2631257a5ae3e71f6096f232e8947aa99cc111a609f55763b1e8c07cfd7abb"
+hash = "d59ec6469cf383673342f0262547b1cc3319537267795133d00fc5b270ae63e2"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "1369b872b82ba6a721a1ea8fae4f699282c97eebe7e5a0b41cc4897f7225c45b"
+hash = "fefa9707c1eba7b60765170153f576c24b273a06d8e0cd62b50c9c58193b9d10"
 metafile = true
 
 [[files]]
