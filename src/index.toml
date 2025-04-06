@@ -828,7 +828,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "1baa686d42264c84e1135cc4c66e351f7aacc72110222cd69a5734dccff06813"
+hash = "66b53545a0aedca6b057f7bf13951d1db32b12cd103b6fc049e22276c0439c06"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "481c3d923318898229b067bb84fa319f1ca98f300b7b9e88b03ff534880ad74f"
+hash = "49832d1b33bca4dcd480babe4aed1db488f709a77233b481bf828e029e16ebdb"
 metafile = true
 
 [[files]]
