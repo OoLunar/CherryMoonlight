@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7c41a88606547aa6f14a6eb2603fa9d7801c8a4d222ece98d633b96ad44e82eb"
+hash = "0a484695ba99a402a224ae75c3bad4c312e5ad5c39d08987b76328b424378a7a"
 metafile = true
 
 [[files]]
@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "d59ec6469cf383673342f0262547b1cc3319537267795133d00fc5b270ae63e2"
+hash = "c230c81f0e536fdd47570c56fae838f0e2c899ae17791df3310072368c89937d"
 metafile = true
 
 [[files]]
