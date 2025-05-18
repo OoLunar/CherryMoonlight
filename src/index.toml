@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "3cdfb2e23d7d6506a9609beb2ef63bafdb77e155a077c4d6ef584f2f8e368d23"
+hash = "4227700a0aac2c6b7328d97c304d41a2870cd72b8de3db72263a4609aa9c53f5"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "064596bf83f0466104a5a97359191c18cefbff64c75201e0382a583a5faceff0"
+hash = "1bbdd4a8770c816e01b425ae2602e5d25f282ae3b42d121621794130b8a5415e"
 metafile = true
 
 [[files]]
