@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "fe457cd75fc1d8f63ce8e2dcfce121904b2670b27cf2860d60d4f55686a7bd4f"
+hash = "b2c7097c93d74a298ce741f341f60f47318b53697f58e2078f352f1d17dd50cd"
 metafile = true
 
 [[files]]
@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "c230c81f0e536fdd47570c56fae838f0e2c899ae17791df3310072368c89937d"
+hash = "a80f349ff3ca69843442c3468c028eacd4ffa7404826c16bfa19d79f0f7922f9"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "fefa9707c1eba7b60765170153f576c24b273a06d8e0cd62b50c9c58193b9d10"
+hash = "004749077797ecfd2d75a052b47c43d8c769017e18f3cbdca1d8f4c497505641"
 metafile = true
 
 [[files]]
