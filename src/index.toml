@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "f2d09fccebedea912020a9caa4a6c3778527619316e17bf4d4fd96d36b0180f1"
+hash = "f68bd530a0cef69b7cf87d84533c4e1a5d70d8db698b78ff7cc6fd909ed1a42b"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "72dcc143fce20a37eb03100f93c02e703a20f60ce414b23885a2a7f4f9b822d6"
+hash = "00b841827556e298188689b38309840dc7965e2f1fb1816b8826f394309cc59c"
 metafile = true
 
 [[files]]
