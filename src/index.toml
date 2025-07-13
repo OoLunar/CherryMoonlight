@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "f68bd530a0cef69b7cf87d84533c4e1a5d70d8db698b78ff7cc6fd909ed1a42b"
+hash = "b142f356961742b6fd6b22f1a135cdffe6986e568a1212e4bf4ce89def9b30dc"
 metafile = true
 
 [[files]]
@@ -878,17 +878,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "a80f349ff3ca69843442c3468c028eacd4ffa7404826c16bfa19d79f0f7922f9"
+hash = "82ff48f8deef9fee96dd9361e58f430f0ed327f9dceaa9ba145505220f69aa6e"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "866b091a83ecc6c6040808df325d3ab3aabc02f9453e34b335c3fbdc1762a9ce"
+hash = "3aee32afc57c9aad2e0d43843346e546570b5899c7bdac31356c6c08a3ab92de"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "004749077797ecfd2d75a052b47c43d8c769017e18f3cbdca1d8f4c497505641"
+hash = "4982c301c28b742e06974283e53ebbcc4effa17f9675481eb340d85acab6c495"
 metafile = true
 
 [[files]]
