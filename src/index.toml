@@ -543,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "e7c58298be5493bb9296166b1dc13c8b6ce3228e1e5349e756a07d1bc761fb0f"
+hash = "aa108a78a05b77628245d7201bc82175a3b8fbd85b8eb30b4724c534a7c10dcc"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "87aee2fd1ad3fa6e85930d3bc546eabb19d0c8fc2501fef29720e68d22ed8fe8"
+hash = "b87f8a1e09059d65e262300a71dfa64cd350ad54048ad10e2a836dd592ad9114"
 metafile = true
 
 [[files]]
