@@ -688,7 +688,7 @@ metafile = true
 
 [[files]]
 file = "mods/multibeds.pw.toml"
-hash = "7bba795427308485b8e4db875d6441969ee93c850fee668dc2c2d51cebbc2184"
+hash = "547e23ba9a583d21723df23cf33f9199e06501753f9e364d53614b1617038586"
 metafile = true
 
 [[files]]
@@ -868,7 +868,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
-hash = "e7e2edb286dbe61f7082e7b366ceb5164692b366327e3e22662b99d62e0e87a4"
+hash = "8b888f054e7633e1abb06efdf9e6e83996330f06a36b15b50987a1d049364c80"
 metafile = true
 
 [[files]]
