@@ -543,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "aa108a78a05b77628245d7201bc82175a3b8fbd85b8eb30b4724c534a7c10dcc"
+hash = "426f2fb48611220f3eed59ea074943c90269ec8e11f40262eb931deb87e10f64"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "0582d1c0959e905ae3fe4bd862bacdfb623d7de6fe5325c0e2b3dde9f520478c"
+hash = "5728ac377acd4b4f2dba66fa309949a8dd5c67b6b3539306bfdfa41f697fa449"
 metafile = true
 
 [[files]]
