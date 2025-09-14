@@ -1,13 +1,13 @@
 name = "Simple Voice Chat"
-filename = "voicechat-forge-1.19.2-2.6.2.jar"
+filename = "voicechat-forge-1.19.2-2.6.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "506573ca8a9d460a40e91d8ca2e0bb0dc95e9aae"
+hash = "6634757779cd7ce9f4fce2bc9d1bd630c20dcafb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6962886
+file-id = 6979714
 project-id = 416089
