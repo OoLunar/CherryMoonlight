@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "0a484695ba99a402a224ae75c3bad4c312e5ad5c39d08987b76328b424378a7a"
+hash = "c90a0ffc2c3a628dca9b80d36fab28ef6994d1652ce4195a94fb41874b3c8550"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "96916ff589ceb30ea25a9cba33bb86831d8bc5e53d7437f7a65cfd38270e127e"
+hash = "e2d1954d9d520263583a879a1f53342c2f5acb2dfc855ea781b7b2af71e55d3d"
 metafile = true
 
 [[files]]
