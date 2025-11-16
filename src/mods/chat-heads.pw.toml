@@ -1,13 +1,13 @@
 name = "Chat Heads"
-filename = "chat_heads-0.14.0-forge-1.19.2.jar"
+filename = "chat_heads-0.14.2-forge-1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "10612db3bca1aae6d865bb93f23c39247513dc44"
+hash = "11c8b9b1c0b0cf039df7c5c06f865bdeedd2d87e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7057819
+file-id = 7211693
 project-id = 407206
