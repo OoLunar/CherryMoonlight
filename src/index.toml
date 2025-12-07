@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "4227700a0aac2c6b7328d97c304d41a2870cd72b8de3db72263a4609aa9c53f5"
+hash = "c52efaa250166864b4fe0d9c88a157fa770628673050e8d699af9a48f58dcc4d"
 metafile = true
 
 [[files]]
@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "82ff48f8deef9fee96dd9361e58f430f0ed327f9dceaa9ba145505220f69aa6e"
+hash = "e481880fef8eb75f680175d3485055d339d806516254081e66dc51c9a78c1a4d"
 metafile = true
 
 [[files]]
