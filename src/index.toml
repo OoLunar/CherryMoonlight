@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "48a83876a6fe3fe513dd8272911ac505ccb2e380f890a5023f4876cc96a38e3a"
+hash = "bf0d03b68da67abf3e775b6c29d40020f9bd98f0b489ef4a1f066e4e5399cadd"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "b2c7097c93d74a298ce741f341f60f47318b53697f58e2078f352f1d17dd50cd"
+hash = "2ee6f4e84a5c802f725cd3e634efa098b7a9b6723a5832c3bd92b4bb966bc456"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "51350c66524e03cc1c6f4069f768305965a12a3ea1b36ab9e83f208740425807"
+hash = "91eac119a18db41876d44f8e7b384b4d9a2d4cc944adcdc44c313eb7b31bfd96"
 metafile = true
 
 [[files]]
@@ -883,12 +883,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "23740ab2180b69f5ae6d7628aa2477e70702af246d402c6ce88cfde4e86e3b4c"
+hash = "9cd7023629f5700c7b23cc941b65966a7c8c2d0b72c7efe7c16b5d67031914a8"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "90448bdd27acb9ae1b14c6f446788c905f26fe69b8ce06df5afa3e0652b571bf"
+hash = "b09e49f7e1250e5404e43bd6445c0ba81b82d509ca9a47403e35983b2610edd6"
 metafile = true
 
 [[files]]
