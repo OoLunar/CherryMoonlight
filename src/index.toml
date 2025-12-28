@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "fa5507a499218c335f7dca19cb451b2775757289f01b30526f53ca6af7416cf5"
+hash = "d7f643193d764399f137c744c0f4c69a3043ba8df4a49ad505a3ec2ad441b601"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "55c344515ffd2ca1aa8ac5bc16ef0331c922a0a4b8161c229963f79edb498268"
+hash = "1cb3c512c353029c9960db1a9e6121e736b1fe26b97769b38d20f6591df9baf4"
 metafile = true
 
 [[files]]
