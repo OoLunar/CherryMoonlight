@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "bbc3b71e950ff520a6e7ab22bd82b6503b5396bb2f0dbdef84822fe5b0afa1e6"
+hash = "68855a4afa5fa27392c4e42c984e02ced5ad68bdfb08dbb23431759bc14af6c0"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "54fe21a0e06ccd3203181730905767adba49409e09612b3ee40c1325aeedde74"
+hash = "c5091a7a87a8b54206459b8ac30bea552d6695d32ab8790b9bd21b6397b955d6"
 metafile = true
 
 [[files]]
@@ -1058,12 +1058,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "a2499e651ab817d19314f73ef5be85dd9d73ab28de5d0d299389adc4804b9762"
+hash = "750a656765bdbc25bf45ea9708a02ef7ebda0193f8be8e6028568c8abce42025"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "cc74a90167c93c04609f2693e27f96823d0768eb4d842f3d3a4f6858b7f50e60"
+hash = "9c24dac5b612e04e8996efbf0c5b367c56ea2ec2551da50d0183563149727b36"
 metafile = true
 
 [[files]]
