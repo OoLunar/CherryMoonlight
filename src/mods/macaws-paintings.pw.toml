@@ -1,13 +1,13 @@
 name = "Macaw's Paintings"
-filename = "mcw-paintings-1.0.5-1.19.2forge.jar"
+filename = "mcw-paintings-1.1.0-mc1.19.2forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "52097024b0563ea2e2eb5d7fe4607e6218d2fca7"
+hash = "9f87a98a99bfaef9229595035277b48d9fc55dd2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4848147
+file-id = 7845095
 project-id = 438116

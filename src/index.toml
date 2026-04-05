@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "a5bfb2680ac9a0180a10cfc0d3b67508262c38f76b184ddf15392a0d9c0d4d2d"
+hash = "92509cead8da4e367f7f64cfb5fa60b135b34275b55415ab961492adc6d3ef28"
 metafile = true
 
 [[files]]
@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "68855a4afa5fa27392c4e42c984e02ced5ad68bdfb08dbb23431759bc14af6c0"
+hash = "1e1fc5a480fab66948e0c8f8c30568c887950df503630b1ba1548bb3960f55c4"
 metafile = true
 
 [[files]]
@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-paintings.pw.toml"
-hash = "02fa65ec589a8708c8ece47393c4411c188bf7b03b9dca7c2e092661ec3efa0a"
+hash = "5942d7abe0e8b6ca2267f7442afdcf9c7971ccdad7092e900c787e5a6b9ca02e"
 metafile = true
 
 [[files]]
@@ -883,12 +883,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "3b2626a2aad4b6a2bfe303da2278ba769eba5b2e082dea882c5d3e18af887981"
+hash = "00f6f7d521cf604245d342dd5290082e40e66bda53c851da7a715b38eb7a0f92"
 metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "54ad4f06d668670857f9754167925d38aaab1edd7dcd6a3ec5151c2640821d3c"
+hash = "488367e0336eae4459964f665ce2678498d07c5b95ff9629e5bed5f3b44ff45f"
 metafile = true
 
 [[files]]
@@ -918,7 +918,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "2d297e9e2f570b99e0a3fb37ba0f8618e7c291b4ec2e5a47f79a92a947036a37"
+hash = "cd0d700822b3a728253bc740f9cb740571ea38b1feae184f9fff8ce15c462896"
 metafile = true
 
 [[files]]
