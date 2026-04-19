@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "2ee6f4e84a5c802f725cd3e634efa098b7a9b6723a5832c3bd92b4bb966bc456"
+hash = "8cd6def57900baa1e46ffd94d31ebf5cabd27a3fff27fd4c53116d5f9d574e54"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "087283cad5dcdcd2e35e804f948a14baf967a6bc387e6a97e782039e752b92bc"
+hash = "2b839548d2ac7654538fe4aeacdd1e601109eb14a0fb6cacee749bc88082bc9c"
 metafile = true
 
 [[files]]
