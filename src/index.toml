@@ -213,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "954cfe204744c4f72432711033bdfee77d7edae754ce57ab44fdf0c6433472d3"
+hash = "4334deec7f9907038b81a694b0f3accd8716f44d455859c2ee3e94a1bdeaa8e6"
 metafile = true
 
 [[files]]
@@ -878,12 +878,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "0dd3b60420f97bdb207a077de684b7a9ed84d0aeb150f6befbec6d947a37724f"
+hash = "61b5546ef4f36242f32fbe9d3c5fc120a5f7c183a41b281c1113829354493013"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d3fc2e43e58e2a83aa8a16e94dc60196709e63f143c2b9f4228676a9072a140b"
+hash = "a3aff7c429c8c0e1d11af004a05d0f41d4d091499265d53657a1fe8fc2644917"
 metafile = true
 
 [[files]]
