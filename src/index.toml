@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "b51c295f572fbbacc24cd7d4ff14e84e85069076aeed3f53f1be0583a30ba2a3"
+hash = "4794c5884fbde624f1d96666328010ed154157c09209a22d4a2e418291583303"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c7f85e35495795240bd106f8d5f3a71cef269d71401737f29a9cc24341321eed"
+hash = "ff9f504e5279a2c08d28c046bf068ae58ba1283ddb4ef887abb16d2186dcc92d"
 metafile = true
 
 [[files]]
