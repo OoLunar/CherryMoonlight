@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "27037a863717c94e4d59ff0cd9425bdc77f5540d70b8c0c089207304dabce5df"
+hash = "0e732bf214d153078614828c8fbb0be9e940f80dac7fb30207b2b4bef0ef9a95"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "c4d1195d8b7f898d47a0b9e54b8294c47cbb213f410fa86d5511a079b37bdd45"
+hash = "dda678b4158d7ff10128e9d3b868ede102c173dbba67994f5851424a53e25ef0"
 metafile = true
 
 [[files]]
