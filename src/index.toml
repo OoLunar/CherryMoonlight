@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4d4d67eb8ec18d3209bb22cdf4d51c4684e212be022b1c0792b60abb60713f57"
+hash = "b71a68b1e6df2d2b7683cbdd9330caa6327222a445af00c7d4e4022cf967dcb8"
 metafile = true
 
 [[files]]
@@ -793,7 +793,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "54354cd6d8be8506d56a928a311ac3ee7f88c46fcf9afe95c4a279ff519cad36"
+hash = "d5790fa3912f1802cd64d12f075f1828d8e7778bc1fd2860bf7ddf9f08b80715"
 metafile = true
 
 [[files]]
@@ -1058,12 +1058,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "538b7162f2506fca27c0ef4c44d0e8308b0a0deb1e52b31c6f4c1ca047eb7bac"
+hash = "ab5e4568759b89bea4535fa90c9ecd4029652e096fadbe1219d0003234b1d584"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "dda678b4158d7ff10128e9d3b868ede102c173dbba67994f5851424a53e25ef0"
+hash = "296c9923d516f735d2546896b5a4a055d4f953e328892c7c148c78fd3339396d"
 metafile = true
 
 [[files]]
