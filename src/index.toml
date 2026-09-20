@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "66b6232231a6b7196ce2130a2fbfe473d9434b52cce945654e0cff1e55c27f77"
+hash = "4d81906c40ba14f967abf406be0b6d0fcfdb4c96af6d26f7b0cf65f7c24742d1"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "8cd6def57900baa1e46ffd94d31ebf5cabd27a3fff27fd4c53116d5f9d574e54"
+hash = "9c25e77be27dbc163258f424b0cb379e85983b6c03a9539cd21ff1ccaf91a00d"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "6c68231ab33433774cb7fb322bdba115f816b8c8aa2f8c76c1093f532ed3c4d0"
+hash = "13210355624fa39cc66f15946e0256c16b70bb0cb7a336324de14a3e1179a1ef"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "83950afcfba460fcef3417f04b61f27ff94da58a231528eb2ac097d1927798fc"
+hash = "1e4d73a291360fda4d73ddb99b4aad7fc3b410a2c98ef78ed599474ffa02b4bd"
 metafile = true
 
 [[files]]
