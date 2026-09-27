@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b71a68b1e6df2d2b7683cbdd9330caa6327222a445af00c7d4e4022cf967dcb8"
+hash = "949998402ed6ede41e7c50a04c631c2ac6ce4a841fc68de8d2f391d4358e0dd6"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "e83ac66fff92329fc3c5d8ffbe25a98ac878ce7d29803ff9ee25c7c5baea2d02"
+hash = "cd420bcdc4b4d44672b89856a2fd31d89d6fa6b956978581e65eb5407951cfc0"
 metafile = true
 
 [[files]]
