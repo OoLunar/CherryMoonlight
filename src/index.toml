@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "4794c5884fbde624f1d96666328010ed154157c09209a22d4a2e418291583303"
+hash = "3e081a3880784c2ed772b0af4b9011a30d747f5dd0216275c0f7b9bdac576d03"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "949998402ed6ede41e7c50a04c631c2ac6ce4a841fc68de8d2f391d4358e0dd6"
+hash = "3d9c75f2c51b27549d21d56b0e8ca74c4f1fc5f52dc3e80b6bf4b02341ba89b5"
 metafile = true
 
 [[files]]
@@ -573,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "1071a1e339c3486baba50b7417054cb203927f7c59bc6fec4398d1ac341afd78"
+hash = "8320e46fa21465e79526475e22fb8645974337c7f05f3df410cee0bfacbdbe0d"
 metafile = true
 
 [[files]]
