@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "3e081a3880784c2ed772b0af4b9011a30d747f5dd0216275c0f7b9bdac576d03"
+hash = "84fa72093059610e927050c39d4b2c71cfeb2cdc32028d6f3f6bab73a79de29e"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3d9c75f2c51b27549d21d56b0e8ca74c4f1fc5f52dc3e80b6bf4b02341ba89b5"
+hash = "f6da7a60c28fffc0c02c58cc6c35d520bb4e8928e86a48f210a28d6182f3ea14"
 metafile = true
 
 [[files]]
@@ -573,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "8320e46fa21465e79526475e22fb8645974337c7f05f3df410cee0bfacbdbe0d"
+hash = "401a262679e9ea686cfedff51f7f0a05f55be387ae698bd35a0d7b8bcaf717cc"
 metafile = true
 
 [[files]]
@@ -1058,12 +1058,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "ab5e4568759b89bea4535fa90c9ecd4029652e096fadbe1219d0003234b1d584"
+hash = "a5e3cec8f65db10adf123f1960c4082229afbe8a40ffdd873dc732163f11d66c"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "296c9923d516f735d2546896b5a4a055d4f953e328892c7c148c78fd3339396d"
+hash = "81838926881b5b26f7adf8ec8ed628ce12b5eb16496c37b2c1946875e887ad35"
 metafile = true
 
 [[files]]

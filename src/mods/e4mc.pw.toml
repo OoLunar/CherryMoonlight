@@ -1,13 +1,13 @@
 name = "e4mc"
-filename = "e4mc-forge-6.2.2.jar"
+filename = "e4mc-forge-6.2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ba40a2b49d9877d2a0bdc5b4dc9d841e7a60c7fd"
+hash = "64beea3eefd083e7b2b90e8c295cdd2071a40e84"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8990755
+file-id = 9030240
 project-id = 849519
