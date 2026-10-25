@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "035c0dd34a859911652dc6f29c952deae2b48d12cddb3c2d4c45f64ef73e9740"
+hash = "df50ea6473fd9defe34417b81d93a2e2ad8e2ea92e55a2c0e81a15c952dfb81c"
 metafile = true
 
 [[files]]
@@ -888,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "1e4d73a291360fda4d73ddb99b4aad7fc3b410a2c98ef78ed599474ffa02b4bd"
+hash = "27c31c1ed673f540ac0b8c1c3b50ae6b2291677a83660fa222812845edf18806"
 metafile = true
 
 [[files]]
