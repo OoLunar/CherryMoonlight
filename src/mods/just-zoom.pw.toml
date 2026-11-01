@@ -1,13 +1,13 @@
 name = "Just Zoom"
-filename = "justzoom_forge_3.0.1_MC_1.19.2.jar"
+filename = "justzoom_forge_3.1.0_MC_1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "413f01428e6a8561049dc2f65c18add85d4ebb64"
+hash = "5a04b44bcbb8a13a818b531d930dbf478b605e6d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9062465
+file-id = 9325427
 project-id = 561885

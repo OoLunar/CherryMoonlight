@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "df50ea6473fd9defe34417b81d93a2e2ad8e2ea92e55a2c0e81a15c952dfb81c"
+hash = "c4e688dabb32d383c029cdaabbb28fd6e4b0dacb95750445c2bbb96428765378"
 metafile = true
 
 [[files]]
@@ -573,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "401a262679e9ea686cfedff51f7f0a05f55be387ae698bd35a0d7b8bcaf717cc"
+hash = "e129d4f760c99f664505dd8ef2165e05c2ab44d307715762e4435fdde03b4713"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "cd420bcdc4b4d44672b89856a2fd31d89d6fa6b956978581e65eb5407951cfc0"
+hash = "e465a8ff62db74a03c57f7b6e9fbedac7e24c3b73d95bd645338e29b5d44294b"
 metafile = true
 
 [[files]]
