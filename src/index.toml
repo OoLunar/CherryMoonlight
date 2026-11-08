@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c4e688dabb32d383c029cdaabbb28fd6e4b0dacb95750445c2bbb96428765378"
+hash = "f0515fc514ec7f4adbc48a1d10b688380181b49e68414245a41b5ec2379f757b"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "13210355624fa39cc66f15946e0256c16b70bb0cb7a336324de14a3e1179a1ef"
+hash = "af2bd205b0b63a5f7de78d652c0629cbf0909ed2db1c4ec432779baf66093588"
 metafile = true
 
 [[files]]
